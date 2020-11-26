@@ -11,7 +11,7 @@ const ParallaxSection = () => (
 class Hero extends React.Component{
     render(){
         return (
-            <Parallax className="custom-class" y={[-100, 50]} x={[100,-50]} tagOuter="figure">
+            <Parallax className="custom-class" y={[-100, 50]} x={[100,-40]} tagOuter="figure">
                 <div class="rellax hexagon hexagon1"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
             </Parallax>
         );
