@@ -8,7 +8,7 @@ class Home extends React.Component{
     render(){
         return (
             <section className="Home">
-                <div className="col1">
+                <div className="col-home col-home-1">
                     <Bullet text="React" />
                     <Bullet text="Angular" />
                     <Bullet text=".NET" />
@@ -18,7 +18,7 @@ class Home extends React.Component{
                         <Hero />
                     </ParallaxProvider>
                 </div>
-                <div className="col2">
+                <div className="col-home col-home-2">
                     <Bullet text="data analysis" />
                     <Bullet text="R" />
                     <Bullet text="market research" />

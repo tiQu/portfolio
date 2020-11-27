@@ -1,7 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar/Navbar'
-// import { FaSearch } from 'react-icons/fa';
-// import { FaShoppingCart } from 'react-icons/fa';
+import Navbar from './Navbar/Navbar';
+import './Header.scss';
 
 class Header extends React.Component{
     render(){

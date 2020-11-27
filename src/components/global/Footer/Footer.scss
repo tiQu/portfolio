@@ -1,0 +1,47 @@
+@import '../../../styles/variables';
+@import '../../../styles/reset';
+
+.app-footer {
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+}
+
+a, span {
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+svg {
+    fill: #fff !important;
+    padding-right: 7px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    
+    .footer-section:first-child {
+        padding-top: 0px;
+    }
+
+    .footer-section:last-child {
+        border-bottom: 0px;
+    }
+}

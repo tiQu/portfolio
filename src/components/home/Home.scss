@@ -11,12 +11,18 @@
     align-items: flex-end;
 }
 
-.col1 {
+.col-home {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.col-home-1 {
     text-align: right;
     width: 200px;
 }
 
-.col2 {
+.col-home-2 {
     text-align: left;
     width: 200px;
 }
