@@ -1,15 +1,12 @@
 import React from 'react';
 import './Main.scss';
-import { ParallaxProvider } from 'react-scroll-parallax';
-import Hero from '../../home/Hero/Hero'
+import Home from '../../home/Home';
 
 class Main extends React.Component{
     render(){
         return (
             <main>
-                <ParallaxProvider>
-                    <Hero />
-                </ParallaxProvider>
+                <Home />
             </main>
         );
     }
