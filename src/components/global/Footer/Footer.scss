@@ -2,11 +2,28 @@
 @import '../../../styles/reset';
 
 .app-footer {
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-row-top {
+    padding: 0px 20px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-row-top svg {
+    fill: black !important;
+    padding: 0px 20px;
+}
+
+.footer-row-bottom {
+    padding: 20px;
+    width: 100vw;
     background-color: black;
     display: flex;
-    align-items: flex-end;
-    font-family: 'Rubik', sans-serif;
-    padding: 20px;
+    justify-content: flex-end;
 }
 
 a, span {
@@ -15,9 +32,7 @@ a, span {
     padding-top: 8px;
 }
 
-footer > div {
-    display: flex;
-    flex-direction: column;
+.footer-section {
     padding-right: 20px;
 }
 
