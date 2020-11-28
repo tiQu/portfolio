@@ -3,11 +3,11 @@
 
 .app-footer {
     font-family: 'Rubik', sans-serif;
+    width: 100vw;
 }
 
 .footer-row-top {
-    padding: 0px 20px;
-    width: 100vw;
+    padding: 0vw 2.5vw;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@
 
 .footer-row-top svg {
     fill: black;
-    padding: 0px 20px;
+    // padding: 0px 20px;
     align-self: flex-end;
 }
 
@@ -34,8 +34,8 @@
 }
 
 .footer-row-bottom {
-    padding: 20px;
-    padding-right: 0px;
+    padding: 1.5vw 0vw;
+    // padding-right: 0px;
     width: 100vw;
     background-color: black;
     display: flex;
@@ -46,11 +46,11 @@
 a, span {
     color: white;
     text-decoration: none;
-    padding-top: 8px;
+    padding: 2.5vw;
 }
 
 .footer-section {
-    padding-right: 20px;
+    // padding-right: 20px;
 }
 
 svg {
