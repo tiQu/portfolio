@@ -21,15 +21,15 @@ class Home extends React.Component{
                     </ParallaxProvider>
                     <div className="Home-bottom">
                         <div className="Home-bottom-section Home-bottom-section1" id="b1Target">Something about React</div>
-                        <SectionSeparator />
+                        {/* <SectionSeparator /> */}
                         <div className="Home-bottom-section Home-bottom-section1" id="b2Target">Something about Angular</div>
-                        <SectionSeparator />
+                        {/* <SectionSeparator /> */}
                         <div className="Home-bottom-section Home-bottom-section1" id="b3Target">Something about .NET</div>
-                        <SectionSeparator />
+                        {/* <SectionSeparator /> */}
                         <div className="Home-bottom-section Home-bottom-section2" id="b4Target">Something about data analysis</div>
-                        <SectionSeparator />
+                        {/* <SectionSeparator /> */}
                         <div className="Home-bottom-section Home-bottom-section2" id="b5Target">Something about R</div>
-                        <SectionSeparator />
+                        {/* <SectionSeparator /> */}
                         <div className="Home-bottom-section Home-bottom-section2" id="b6Target">Something about market research</div>
                     </div>
                 </div>
