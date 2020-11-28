@@ -10,19 +10,27 @@ class Home extends React.Component{
         return (
             <section className="Home">
                 <div className="col-home col-home-1">
-                    <Bullet id="b1" text="React" description="dev"/>
-                    <Bullet id="b2" text="Angular" />
-                    <Bullet id="b3" text=".NET" />
+                    <Bullet idx="b1" scrollToSection="b1Target" txt="React" />
+                    <Bullet idx="b2" scrollToSection="b2Target" txt="Angular" />
+                    <Bullet idx="b3" scrollToSection="b3Target" txt=".NET" />
                 </div>
                 <div className="Home-logo">
                     <ParallaxProvider>
                         <Hero />
                     </ParallaxProvider>
+                    <div className="Home-bottom">
+                        <div className="Home-bottom-section Home-bottom-section1" id="b1Target">Something about React</div>
+                        <div className="Home-bottom-section Home-bottom-section1" id="b2Target">Something about Angular</div>
+                        <div className="Home-bottom-section Home-bottom-section1" id="b3Target">Something about .NET</div>
+                        <div className="Home-bottom-section Home-bottom-section2" id="b4Target">Something about data analysis</div>
+                        <div className="Home-bottom-section Home-bottom-section2" id="b5Target">Something about R</div>
+                        <div className="Home-bottom-section Home-bottom-section2" id="b6Target">Something about market research</div>
+                    </div>
                 </div>
                 <div className="col-home col-home-2">
-                    <Bullet id="b4" text="data analysis" />
-                    <Bullet id="b5" text="R" />
-                    <Bullet id="b6" text="market research" />
+                    <Bullet idx="b4" scrollToSection="b4Target" txt="data analysis" />
+                    <Bullet idx="b5" scrollToSection="b5Target" txt="R" />
+                    <Bullet idx="b6" scrollToSection="b6Target" txt="market research" />
                 </div>
             </section>
         );
