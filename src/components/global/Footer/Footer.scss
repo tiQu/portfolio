@@ -11,18 +11,35 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
+    padding-right: 0px;
+}
+
+.footer-row-top div {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-row-top svg {
-    fill: black !important;
+    fill: black;
     padding: 0px 20px;
+    align-self: flex-end;
+}
+
+#steam {
+    fill: white;
+}
+
+.footer-row-top .coffee:hover :nth-child(1) {
+    fill: black !important;
 }
 
 .footer-row-bottom {
     padding: 20px;
+    padding-right: 0px;
     width: 100vw;
     background-color: black;
     display: flex;
+    align-items: baseline;
     justify-content: flex-end;
 }
 
@@ -37,7 +54,7 @@ a, span {
 }
 
 svg {
-    fill: #fff !important;
+    fill: #fff;
     padding-right: 7px;
 }
 

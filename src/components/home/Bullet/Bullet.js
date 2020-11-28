@@ -1,15 +1,15 @@
 import React from 'react';
 import './Bullet.scss';
-import { ParallaxProvider } from 'react-scroll-parallax';
 
-class Main extends React.Component{
+class Bullet extends React.Component{
     render(){
         return (
             <div className="bullet">
-                {this.props.text}
+                <div className="bullet-text">{this.props.text}</div>
+                <div id={this.props.id}>{this.props.description}</div>
             </div>
         );
     }
   }
 
-export default Main;
+export default Bullet;

@@ -4,4 +4,9 @@
     padding: 30px;
     font-family: 'Rubik', sans-serif;
     font-size: xx-large;
+
+    &:hover {
+        color: white;
+        background-color: black;
+    }
 }
