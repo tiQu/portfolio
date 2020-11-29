@@ -1,8 +1,8 @@
 import React from 'react';
-import './Bullet.scss';
+import './BulletSide.scss';
 import { Link } from "react-scroll";
 
-class Bullet extends React.Component{
+class BulletSide extends React.Component{
     render(){
         return (
             <Link activeClass="active" 
@@ -19,4 +19,4 @@ class Bullet extends React.Component{
     }
   }
 
-export default Bullet;
+export default BulletSide;

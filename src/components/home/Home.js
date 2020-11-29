@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.scss';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Hero from './Hero/Hero';
-import Bullet from './Bullet/Bullet';
+import BulletSide from './BulletSide/BulletSide';
 import FadeInSection from '../global/FadeInSection/FadeInSection';
 import SectionSeparator from './SectionSeparator/SectionSeparator';
 import { Element } from 'react-scroll';
@@ -11,12 +11,12 @@ class Home extends React.Component{
     render(){
         return (
             <section className="Home">
-                <div className="col-home col-home-1">
-                    <Bullet idx="b1" scrollToSection="b1Target" txt="React" />
-                    <Bullet idx="b2" scrollToSection="b2Target" txt="Angular" />
-                    <Bullet idx="b3" scrollToSection="b3Target" txt=".NET" />
+                <div className="col-home-1">
+                    <BulletSide idx="b1" scrollToSection="b1Target" txt="React" />
+                    <BulletSide idx="b2" scrollToSection="b2Target" txt="Angular" />
+                    <BulletSide idx="b3" scrollToSection="b3Target" txt=".NET" />
                 </div>
-                <div className="Home-logo">
+                <div className="col-home-2 Home-logo">
                     <ParallaxProvider>
                         <Hero />
                     </ParallaxProvider>
@@ -34,10 +34,10 @@ class Home extends React.Component{
                         <Element className="Home-bottom-section Home-bottom-section2" id="b6Target">Something about market research</Element>
                     </div>
                 </div>
-                <div className="col-home col-home-2">
-                    <Bullet idx="b4" scrollToSection="b4Target" txt="data analysis" />
-                    <Bullet idx="b5" scrollToSection="b5Target" txt="R" />
-                    <Bullet idx="b6" scrollToSection="b6Target" txt="market research" />
+                <div className="col-home-3">
+                    <BulletSide idx="b4" scrollToSection="b4Target" txt="data analysis" />
+                    <BulletSide idx="b5" scrollToSection="b5Target" txt="R" />
+                    <BulletSide idx="b6" scrollToSection="b6Target" txt="market research" />
                 </div>
             </section>
         );
