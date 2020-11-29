@@ -13,7 +13,6 @@ class BulletSide extends React.Component{
             duration={500}
             to={this.props.scrollToSection}>
                 <div className="bullet-text">{this.props.txt}</div>
-                <div id={this.props.idx} className="bullet-description">{this.props.description}</div>
             </Link>
         );
     }

@@ -1,0 +1,28 @@
+@import '../../../styles/mixins';
+
+.Home-bottom-section {
+    // position: -webkit-sticky;
+    // position: sticky;
+    top: 0;
+    height: 90px;
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+    color: white;
+    background-color: black;
+    width: 25vw;
+    padding: 2.5vw;
+}
+
+.bulletCentre-wrap {
+    @include coln;
+
+    &.Home-bottom-section-left {
+        text-align: left;
+        align-items: flex-start;
+    }
+    
+    &.Home-bottom-section-right {
+        text-align: right;
+        align-items: flex-end;
+    }
+}
