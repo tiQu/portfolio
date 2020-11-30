@@ -26,6 +26,10 @@
     top: 0;
     height: auto;
     width: 20vw;
+
+    &.div-bottom {
+        height: 700px;
+    }
 }
 
 .col-home-1 {

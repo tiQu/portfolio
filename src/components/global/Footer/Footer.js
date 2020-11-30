@@ -1,15 +1,17 @@
 import React from 'react';
 import './Footer.scss';
-import {Link, Scroll} from 'react-scroll';
+import {Link, Scroll,  animateScroll as scroll} from 'react-scroll';
 
 class Footer extends React.Component{
     render(){
         return (
             <footer className="app-footer">
                 <div className="footer-row-top">
-                    <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-shift-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fillRule="evenodd" d="M7.27 2.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H11.5v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3H1.654C.78 10.5.326 9.455.924 8.816L7.27 2.047z"/>
-                    </svg>
+                    <div className="up-arrow" onClick={scroll.scrollToTop()}>
+                        <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-shift-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fillRule="evenodd" d="M7.27 2.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H11.5v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3H1.654C.78 10.5.326 9.455.924 8.816L7.27 2.047z"/>
+                        </svg>
+                    </div>
                     <div className="coffee">
                         <svg id="steam" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>

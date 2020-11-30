@@ -31,6 +31,7 @@
 
 .footer-row-top .coffee:hover :nth-child(1) {
     fill: black !important;
+    cursor: pointer;
 }
 
 .footer-row-bottom {
@@ -56,6 +57,16 @@ a, span {
 svg {
     fill: #fff;
     padding-right: 7px;
+}
+
+.up-arrow {
+    align-self: flex-end;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+
+    &:hover{
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
