@@ -28,18 +28,22 @@
     width: 20vw;
 }
 
-.col-home-1 {
+.bullets-left {
     text-align: right;
+    align-self: flex-end;
+    width: 100%;
 }
 
-.col-home-3 {
+.bullets-right {
     text-align: left;
+    align-self: flex-start;
+    width: 100%;
 }
 
 .bullets-left, .bullets-right {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 100px;
 }
 
 // .home-bottom {
