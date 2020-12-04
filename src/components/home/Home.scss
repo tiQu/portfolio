@@ -7,7 +7,7 @@
     // justify-content: space-evenly;
     align-items: center;
     // width: 100vw;
-    height: 2500px;
+    height: 300vh;
 }
 
 .Home-logo {
@@ -21,15 +21,11 @@
 
 .col-home-1, .col-home-3 {
     @include coln;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    height: auto;
+    align-items: flex-start;
+    // justify-content: flex-start;
+    height: $home-height - 500px;
+    // height: 100%;
     width: 20vw;
-
-    &.div-bottom {
-        height: 700px;
-    }
 }
 
 .col-home-1 {
@@ -38,6 +34,12 @@
 
 .col-home-3 {
     text-align: left;
+}
+
+.bullets-left, .bullets-right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 // .home-bottom {

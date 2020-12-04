@@ -11,7 +11,6 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding-right: 0px;
 }
 
 .footer-row-top div {
@@ -44,15 +43,15 @@
     justify-content: flex-end;
 }
 
-a, span {
+.contact-me a {
     color: white;
     text-decoration: none;
-    // padding: 2.5vw;
+    padding-right: 2.5vw;
 }
 
-.footer-section {
+// .footer-section {
     // padding-right: 20px;
-}
+// }
 
 svg {
     fill: #fff;

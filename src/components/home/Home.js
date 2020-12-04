@@ -4,7 +4,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import Hero from './Hero/Hero';
 import BulletSide from './BulletSide/BulletSide';
 import BulletCentre from './BulletCentre/BulletCentre';
-import FadeInSection from '../global/FadeInSection/FadeInSection';
+// import FadeInSection from '../global/FadeInSection/FadeInSection';
 import { BulletItems } from './BulletItems.js'
 
 class Home extends React.Component{
@@ -12,12 +12,14 @@ class Home extends React.Component{
         return (
             <section className="Home">
                 <div className="col-home-1">
-                    {BulletItems.slice(0,3).map((item) => {
-                            return (
-                                <BulletSide scrollToSection={item.bulletId} txt={item.title} />
-                            )
-                        })}
-                    {/* <BulletSide idx="b1" scrollToSection="b1Target" txt="React" /> */}
+                    <div className="bullets-left">
+                        {BulletItems.slice(0,3).map((item) => {
+                                return (
+                                    <BulletSide scrollToSection={item.bulletId} txt={item.title} />
+                                )
+                            })}
+                        {/* <BulletSide idx="b1" scrollToSection="b1Target" txt="React" /> */}
+                    </div>
                 </div>
                 <div className="col-home-2 Home-logo">
                     <ParallaxProvider>
@@ -34,11 +36,13 @@ class Home extends React.Component{
                     </div>
                 </div>
                 <div className="col-home-3">
-                    {BulletItems.slice(3,6).map((item) => {
-                            return (
-                                <BulletSide scrollToSection={item.bulletId} txt={item.title} />
-                            )
-                        })}
+                    <div className="bullets-right">
+                        {BulletItems.slice(3,6).map((item) => {
+                                return (
+                                    <BulletSide scrollToSection={item.bulletId} txt={item.title} />
+                                )
+                            })}
+                    </div>
                 </div>
             </section>
         );
