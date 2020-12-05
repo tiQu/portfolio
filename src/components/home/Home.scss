@@ -16,6 +16,10 @@
     // justify-content: space-evenly;
     // position: absolute;
     // top: 30;
+    // width: 60vw;
+}
+
+.col-home-2 {
     width: 60vw;
 }
 
@@ -46,8 +50,27 @@
     top: 100px;
 }
 
-// .home-bottom {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-around;
-// }
+.home-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .Home {
+        @include coln;
+    }
+
+    .col-home-2 {
+        width: 100vw;
+    }
+
+    .Home-bottom {
+        width: 90%;
+    }
+
+    .col-home-1, .col-home-3 {
+        display: none;
+    }
+}
+

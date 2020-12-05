@@ -1,38 +1,38 @@
 export const BulletItems = [
     {
         bulletId: 'React',
-        title: 'React',
-        description: 'Something about React',
+        bulletTitle: 'React',
+        bulletDescription: 'Something about React',
         bulletClasses: 'Home-bottom-section-left'
     },
     {
         bulletId: 'Angular',
-        title: 'Angular',
-        description: 'Something about Angular',
+        bulletTitle: 'Angular',
+        bulletDescription: 'Something about Angular',
         bulletClasses: 'Home-bottom-section-left'
     },
     {
         bulletId: 'NET',
-        title: '.NET',
-        description: 'Something about .NET',
+        bulletTitle: '.NET',
+        bulletDescription: 'Something about .NET',
         bulletClasses: 'Home-bottom-section-left'
     },
     {
         bulletId: 'SQL',
-        title: 'SQL',
-        description: 'Something about SQL',
+        bulletTitle: 'SQL',
+        bulletDescription: 'Something about SQL',
         bulletClasses: 'Home-bottom-section-right'
     },
     {
         bulletId: 'R',
-        title: 'R',
-        description: 'Something about R',
+        bulletTitle: 'R',
+        bulletDescription: 'Something about R',
         bulletClasses: 'Home-bottom-section-right'
     },
     {
         bulletId: 'dataAnalysis',
-        title: 'data analysis',
-        description: 'Something about data analysis',
+        bulletTitle: 'data analysis',
+        bulletDescription: 'Something about data analysis',
         bulletClasses: 'Home-bottom-section-right'
     }
 ]
