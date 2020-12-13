@@ -47,3 +47,15 @@
     height: 400px;
     margin: 0 0 0 80px;
 }
+
+@media screen and (max-width: 992px) {
+    .hexagon1 {
+        width: 500px;
+        height: 250px;
+        margin: 0 0 0 80px;
+    }
+    
+    .hexagon-in2 {
+        background-image: url('./logo_hero_small_rev.png');
+    }
+}

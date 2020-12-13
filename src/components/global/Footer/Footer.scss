@@ -34,7 +34,7 @@
 }
 
 .footer-row-bottom {
-    padding: 1.5vw 0vw;
+    padding: 2rem 0rem;
     // padding-right: 0px;
     width: 100vw;
     background-color: black;
@@ -46,7 +46,7 @@
 .contact-me a {
     color: white;
     text-decoration: none;
-    padding-right: 2.5vw;
+    padding-right: 2rem;
 }
 
 // .footer-section {
@@ -55,7 +55,7 @@
 
 svg {
     fill: #fff;
-    padding-right: 7px;
+    padding-right: 1rem;
 }
 
 .up-arrow {
@@ -64,7 +64,7 @@ svg {
     cursor: pointer;
 
     &:hover{
-        padding-bottom: 20px;
+        padding-bottom: 1rem;
     }
 }
 
@@ -75,15 +75,15 @@ svg {
 
     .footer-section {
         border-bottom: 1px solid black;
-        padding-bottom: 20px;
-        padding-top: 10px;
+        padding-bottom: 1rem;
+        padding-top: 0.5rem;
     }
     
     .footer-section:first-child {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     .footer-section:last-child {
-        border-bottom: 0px;
+        border-bottom: 0;
     }
 }
