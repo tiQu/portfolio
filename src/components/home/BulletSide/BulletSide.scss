@@ -1,7 +1,8 @@
 @import '../../../styles/variables.scss';
 
 .bullet-text {
-    padding: 30px;
+    width: 14vw;
+    padding: 30px 3vw;
     font-family: 'Rubik', sans-serif;
     font-size: xx-large;
     color: black;
@@ -20,3 +21,9 @@
 .active .bullet-description {
     display: block !important;
 }
+
+// @media screen and (max-width: 768px) {
+//     .bullet-text {
+//         padding: 0px 30px;
+//     }
+// }

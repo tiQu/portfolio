@@ -1,13 +1,16 @@
 import React from 'react';
 import './Footer.scss';
-import {Link, Scroll,  animateScroll as scroll} from 'react-scroll';
+
+const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+ };
 
 class Footer extends React.Component{
     render(){
         return (
             <footer className="app-footer">
                 <div className="footer-row-top">
-                    <div className="up-arrow" onClick={scroll.scrollToTop()}>
+                    <div className="up-arrow" onClick={scrollTop}>
                         <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-shift-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" d="M7.27 2.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H11.5v3a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-3H1.654C.78 10.5.326 9.455.924 8.816L7.27 2.047z"/>
                         </svg>
