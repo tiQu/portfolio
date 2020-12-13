@@ -8,8 +8,7 @@ class BulletSide extends React.Component{
             <Link activeClass="active" 
             spy={true}
             smooth={true}
-            // offset={parseInt(this.props.offset)}
-            offset={0}
+            offset={parseInt(this.props.offset)}
             duration={500}
             to={this.props.scrollToSection}>
                 <div className="bullet-text">{this.props.txt}</div>

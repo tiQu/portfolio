@@ -10,7 +10,7 @@
     color: white;
     background-color: black;
     width: 25vw;
-    padding: 2.5vw;
+    padding: 2rem;
 }
 
 .bulletCentre-wrap {
@@ -41,7 +41,7 @@
     .bulletCentre-wrap {
     
         &.Home-bottom-section-left, &.Home-bottom-section-right {
-            padding: 1vw;
+            padding: 0.5rem;
             width: 100%;
         }
     }

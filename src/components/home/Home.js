@@ -15,7 +15,7 @@ class Home extends React.Component{
                     <div className="bullets-left">
                         {BulletItems.slice(0,3).map((item) => {
                                 return (
-                                    <BulletSide scrollToSection={item.bulletId} txt={item.bulletTitle} />
+                                    <BulletSide scrollToSection={item.bulletId} txt={item.bulletTitle} offset={item.bulletOffset} />
                                 )
                             })}
                         {/* <BulletSide idx="b1" scrollToSection="b1Target" txt="React" /> */}
@@ -39,7 +39,7 @@ class Home extends React.Component{
                     <div className="bullets-right">
                         {BulletItems.slice(3,6).map((item) => {
                                 return (
-                                    <BulletSide scrollToSection={item.bulletId} txt={item.bulletTitle} />
+                                    <BulletSide scrollToSection={item.bulletId} txt={item.bulletTitle} offset={item.bulletOffset} />
                                 )
                             })}
                     </div>
