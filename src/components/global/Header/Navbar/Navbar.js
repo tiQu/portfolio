@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavItems } from './NavItems';
+import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
 
 class Navbar extends React.Component{
@@ -26,13 +27,15 @@ class Navbar extends React.Component{
                     </i>
                 </div>
                 <ul className = {this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {NavItems.map((item, index) => {
+                    {NavItems.map((item) => {
                         return (
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.title.toUpperCase()}
-                                </a>
-                            </li>
+                            <NavLink
+                                exact
+                                activeClassName="nav-links-active"
+                                className={item.cName} 
+                                to={item.url}>
+                                {item.title.toUpperCase()}
+                            </NavLink>
                         )
                     })}
                 </ul>
