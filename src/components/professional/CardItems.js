@@ -1,12 +1,15 @@
 export const CardItems = [
     {
-        cardCharacter: ">_",
+        cardStaticChar: ">",
+        cardAnimateChar: "_",
+        cardAddCharClass: "blink",
         cardHeader: 'Web Programmer',
         cardSummary: 'Something about me as a web programmer',
         cardList: 'bullet points about my experience'
     },
     {
-        cardCharacter: "R",
+        cardStaticChar: "ƒ",
+        cardAnimateChar: "(x)",
         cardHeader: 'Data Analyst',
         cardSummary: 'Something about me as a data analyst',
         cardList: 'bullet points about my experience'
