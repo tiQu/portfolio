@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+@import '../../styles/reset';
+@import '../../styles/mixins';
+
+.professional {
+    width: 95vw;
+    padding: 2.5vw 2rem;
+    display: flex;
+    justify-content: space-between;
+}

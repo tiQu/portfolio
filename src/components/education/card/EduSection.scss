@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+@import '../../../styles/reset';
+@import '../../../styles/mixins';
+
+.professional-card {
+    @include coln;
+    justify-content: space-around;
+    background-color: $dark-grey;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 2rem;
+    font-size: large;
+}
+
+.professional-line {
+    padding: 1rem;
+    text-align: center;
+}
+
+.professional-character {
+    font-size: xx-large;
+}
