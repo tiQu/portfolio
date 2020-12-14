@@ -1,5 +1,6 @@
 @import '../../../../styles/variables';
 @import '../../../../styles/reset';
+@import '../../../../styles/mixins';
 
 nav, .nav-links {
     background-color: black;
@@ -68,8 +69,7 @@ nav, .nav-links {
     }
 
     .nav-menu {
-        display: flex;
-        flex-direction: column;
+        @include coln;
         grid-gap: 0px;
         width: 100%;
         // height: 500px;
@@ -89,14 +89,13 @@ nav, .nav-links {
     }
 
     .nav-links {
-        text-align: center;
         // padding: 2rem;
-        width: 100%;
         display: table;
         padding: 3rem 0rem;
-        height: 0px;
+        height: 10px;
         border-top: 2px solid black;
         border-bottom: 2px solid black;
+        justify-content: center;
     }
 
     .navbar-logo {
