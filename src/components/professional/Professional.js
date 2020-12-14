@@ -16,7 +16,7 @@ class Professional extends React.Component{
                 />
                 <Card staticChar={CardItems[1].cardStaticChar}
                       animateChar={CardItems[1].cardAnimateChar}
-                    //   addCharClass="blink"
+                      addCharClass="spacing"
                       cardHeader={CardItems[1].cardHeader}
                       cardSummary={CardItems[1].cardSummary}
                       cardList={CardItems[1].cardList}
