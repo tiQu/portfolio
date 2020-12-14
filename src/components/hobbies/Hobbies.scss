@@ -1,3 +1,26 @@
 @import '../../styles/variables';
 @import '../../styles/reset';
 @import '../../styles/mixins';
+
+.hobbies {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 5rem;
+
+    & div {
+        padding: 1rem;
+    }
+
+    svg {
+        fill: black !important;
+    }
+}
+
+.hobbies-header {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.hobbies-body {
+    font-size: large;
+}

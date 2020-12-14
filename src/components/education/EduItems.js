@@ -1,6 +1,6 @@
 export const EduItems = [
     {
-        eduHeader: "Software Systems Developer (Web Programmer specialization)",
+        eduHeader: "Software Systems Developer (Web Programmer)",
         eduInstitution: "British Columbia Institute of Technology",
         eduTimespan: "2020-2021 (ongoing)",
         eduSummary: "Coding anything. From scratch."
