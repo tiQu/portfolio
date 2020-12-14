@@ -6,6 +6,11 @@
     font-family: 'Rubik', sans-serif;
     text-align: center;
     padding-top: 5rem;
+    
+    position: relative;
+    bottom: -1em;
+    opacity: 0;
+    animation: fade-in 1s forwards;
 
     & div {
         padding: 1rem;
@@ -23,4 +28,37 @@
 
 .hobbies-body {
     font-size: large;
+}
+  
+@keyframes fade-in {
+    0% {
+        bottom: -0.2em;
+        opacity: 0;
+    }
+
+    50% {
+        bottom: -0.1em;
+        opacity: 0.5;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+.hobby1 {
+    animation-delay: 0.5s;
+}
+.hobby2 {
+    animation-delay: 1s;
+}
+.hobby3 {
+    animation-delay: 1.5s;
+}
+.hobby4 {
+    animation-delay: 2s;
+}
+.hobby5 {
+    animation-delay: 2.5s;
 }
