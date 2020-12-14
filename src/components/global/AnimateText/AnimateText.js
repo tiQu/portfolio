@@ -1,7 +1,7 @@
 class AnimateText extends Component {
     render(){
       return(
-        <span aria-label={this.props.content}>
+        <span className="animateThis" aria-label={this.props.content}>
             {this.props.copy.split("").map(function(c, ix){
               let styles = {"animation-delay": (0.55 + ix / 10) + "s"}
               return <span
