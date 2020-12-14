@@ -4,11 +4,11 @@ import './Card.scss';
 class Card extends React.Component{
     render(){
         return (
-            <div className="professional-card">
-                <div className="professional-toplogo"></div>
-                <div className="professional-header">Web Programmer</div>
-                <div className="professional-summary">Summary about me as a web programmer</div>
-                <div className="professional-list">Summary about me as a web programmer</div>
+            <div className={"professional-card"}>
+                <div className="professional-line professional-character">{this.props.cardCharacter}</div>
+                <div className="professional-line professional-header">{this.props.cardHeader}</div>
+                <div className="professional-line professional-summary">{this.props.cardSummary}</div>
+                <div className="professional-line professional-list">{this.props.cardList}</div>
             </div>
         );
     }
