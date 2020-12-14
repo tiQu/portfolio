@@ -1,0 +1,77 @@
+@import '../../styles/variables';
+@import '../../styles/reset';
+@import '../../styles/mixins';
+
+.Home {
+    display: flex;
+    // justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 300vh;
+}
+
+.Home-logo {
+    @include coln;
+    align-items: center;
+    // justify-content: space-evenly;
+    // position: absolute;
+    // top: 30;
+    // width: 60vw;
+}
+
+.col-home-2 {
+    width: 60vw;
+}
+
+.col-home-1, .col-home-3 {
+    @include coln;
+    align-items: flex-start;
+    // justify-content: flex-start;
+    height: $home-height - 500px;
+    height: 100%;
+    width: 20vw;
+}
+
+.bullets-left {
+    text-align: right;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.bullets-right {
+    text-align: left;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.bullets-left, .bullets-right {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+
+.home-bottom {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .Home {
+        @include coln;
+    }
+
+    .col-home-2 {
+        width: 100vw;
+    }
+
+    .Home-bottom {
+        width: 100%;
+    }
+
+    .col-home-1, .col-home-3 {
+        display: none;
+    }
+}
+
