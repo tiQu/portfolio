@@ -1,3 +1,6 @@
+import React from 'react';
+import './AnimateText.scss';
+
 class AnimateText extends Component {
     render(){
       return(
