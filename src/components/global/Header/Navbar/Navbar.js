@@ -12,7 +12,7 @@ class Navbar extends React.Component{
     render(){
         return (
             <nav className="NavbarItems">
-                <div className="navbar-logo">{/* tQ: logo goes here */}</div>
+                <div className="navbar-logo">Tilman Queitsch</div>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'bars-hidden' : 'bars-shown'}>
                         <svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

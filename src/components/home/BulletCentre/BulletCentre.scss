@@ -9,7 +9,7 @@
     font-size: x-large;
     color: white;
     background-color: black;
-    width: 25vw;
+    width: 30vw;
     padding: 2rem;
 }
 
@@ -40,9 +40,14 @@
     
     .bulletCentre-wrap {
     
-        &.Home-bottom-section-left, &.Home-bottom-section-right {
-            padding: 0.5rem;
-            width: 100%;
+        &.Home-bottom-section-left {
+            padding-right: 5%;
+            width: 95%;
+        }
+
+        &.Home-bottom-section-right {
+            padding-left: 5%;
+            width: 95%;
         }
     }
 
@@ -64,7 +69,12 @@
         font-size: x-large;
         color: white;
         background-color: black;
-        padding: 1%;
+        padding: 2%;
+    }
+
+    .bulletCentre-el2 {
+        width: 64%;
+        padding: 2%;
     }
     
     .Home-bottom-section-left .bulletCentre-top .bulletCentre-el1 {
