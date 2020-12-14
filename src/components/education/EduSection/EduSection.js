@@ -7,16 +7,16 @@ class EduSection extends React.Component{
         return (
             <div className="eduSection">
                 <div className="eduSection-header">
-                    {this.props.eduHeader}
+                    <AnimateText content={this.props.eduHeader} />
                 </div>
                 <div className="eduSection-institution">
-                    {this.props.eduInstitution}
+                    <AnimateText content={this.props.eduInstitution} />
                 </div>
                 <div className="eduSection-timespan">
-                    {this.props.eduTimespan}
+                    <AnimateText content={this.props.eduTimespan} />
                 </div>
                 <div className="eduSection-summary">
-                    {this.props.eduSummary}
+                    <AnimateText content={this.props.eduSummary} />
                 </div>
             </div>
         );

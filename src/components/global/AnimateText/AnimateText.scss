@@ -1,4 +1,4 @@
-.AnimateThis {
+.animateThis {
     position: relative;
     left: -1em;
     opacity: 0;
@@ -8,11 +8,12 @@
 @keyframes move-text {
     0% {
         left: -0.2em;
-        opacity: 1;
+        opacity: 0;
     }
 
     50% {
-        left: 0.2em;
+        left: -0.1em;
+        opacity: 0.5;
     }
 
     100% {
