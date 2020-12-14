@@ -1,0 +1,10 @@
+@import '../../../styles/variables';
+@import '../../../styles/reset';
+@import '../../../styles/mixins';
+
+.professional-card {
+    @include coln;
+    background-color: $dark-grey;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
