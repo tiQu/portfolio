@@ -4,6 +4,7 @@ import Header from './components/global/Header/Header'
 import Footer from './components/global/Footer/Footer'
 import Home from './components/home/Home';
 import Professional from './components/professional/Professional';
+import Education from './components/education/Education';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/professional" component={Professional} />
+            <Route exact path="/education" component={Education} />
           </Switch>
         </Router>
         <Footer />

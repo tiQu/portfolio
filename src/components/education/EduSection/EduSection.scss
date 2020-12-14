@@ -2,7 +2,7 @@
 @import '../../../styles/reset';
 @import '../../../styles/mixins';
 
-.professional-card {
+.eduSection {
     @include coln;
     justify-content: space-around;
     background-color: $dark-grey;
@@ -12,7 +12,7 @@
     font-size: large;
 }
 
-.professional-line {
+.eduSection-line {
     padding: 1rem;
     text-align: center;
 }

@@ -2,9 +2,13 @@
 @import '../../styles/reset';
 @import '../../styles/mixins';
 
-.professional {
+.education {
     width: 95vw;
     padding: 2.5vw 2rem;
     display: flex;
     justify-content: space-between;
+}
+
+.education-section {
+    background-color: $dark-grey;
 }
