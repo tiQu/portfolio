@@ -10,7 +10,7 @@
     position: relative;
     bottom: -1em;
     opacity: 0;
-    animation: fade-in 0.8s forwards;
+    animation: fade-in 1s forwards;
 
     & div {
         padding: 1rem;
@@ -45,4 +45,20 @@
         bottom: 0;
         opacity: 1;
     }
+}
+
+.hobby1 {
+    animation-delay: 0.5s;
+}
+.hobby2 {
+    animation-delay: 1s;
+}
+.hobby3 {
+    animation-delay: 1.5s;
+}
+.hobby4 {
+    animation-delay: 2s;
+}
+.hobby5 {
+    animation-delay: 2.5s;
 }
