@@ -10,5 +10,11 @@
 }
 
 .education-section {
+    display: flex;
     background-color: $dark-grey;
+    width: 30vw;
+}
+
+.eduLogo {
+    padding: 2rem 0 0 2rem;
 }
