@@ -18,10 +18,5 @@ export const NavItems = [
         title: 'Hobbies & Interests',
         url: '/hobbies',
         cName: 'nav-links'
-    },
-    {
-        title: 'Contact me',
-        url: '/contact',
-        cName: 'nav-links'
     }
 ]
