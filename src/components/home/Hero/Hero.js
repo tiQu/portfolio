@@ -2,11 +2,11 @@ import React from 'react';
 import './Hero.scss';
 import { Parallax } from 'react-scroll-parallax';
 
-const ParallaxSection = () => (
-    <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
+// const ParallaxSection = () => (
+//     <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
         
-    </Parallax>
-);
+//     </Parallax>
+// );
 
 class Hero extends React.Component{
     render(){
