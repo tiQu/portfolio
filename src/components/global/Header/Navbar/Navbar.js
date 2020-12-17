@@ -38,6 +38,7 @@ class Navbar extends React.Component{
                             </NavLink>
                         )
                     })}
+                    <a className="nav-links" href="mailto:tqueitsc@alumni.sfu.ca">CONTACT ME</a>
                 </ul>
             </nav>
         );
