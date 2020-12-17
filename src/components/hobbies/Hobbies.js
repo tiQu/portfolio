@@ -25,7 +25,7 @@ class Education extends React.Component{
                         I love black coffee.
                     </div>
                     <div className="hobbies-body">
-                        During my undergrad I managed a students café together with a diverse crew of fellow enthusiasts.
+                        During my undergrad I managed a café for students together with a diverse crew of fellow enthusiasts.
                     </div>
                 </div>
                 <div className="hobbies hobby3">
@@ -49,10 +49,10 @@ class Education extends React.Component{
                         Many people say they have a weird music taste.
                     </div>
                     <div className="hobbies-body">
-                        With me it's true though.
+                        In my case it's true though.
                     </div>
                 </div>
-                <div className="hobbies hobby5">
+                {/* <div className="hobbies hobby5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-vinyl-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM4 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0zm4 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                     </svg>
@@ -62,7 +62,7 @@ class Education extends React.Component{
                     <div className="hobbies-body">
                         But still love my iPod.
                     </div>
-                </div>
+                </div> */}
             </section>
         );
     }
