@@ -31,10 +31,6 @@ nav, .nav-links {
     border-bottom: 1px solid white;
 }
 
-.navbar-logo span {
-    color: white;
-}
-
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -62,6 +58,10 @@ nav, .nav-links {
 .nav-links-active {
     text-decoration: underline;
 }
+
+// @media screen and (max-width: 992px) {
+
+// }
 
 @media screen and (max-width: 768px) {
     .NavbarItems {

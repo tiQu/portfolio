@@ -8,8 +8,8 @@ export const BulletItems = [
     },
     {
         bulletId: 'NET',
-        bulletTitle: '.NET API',
-        bulletDescription: 'building endpoints with efficiency & frontend in mind',
+        bulletTitle: '.NET',
+        bulletDescription: 'building API endpoints with efficiency & frontend in mind',
         bulletClasses: 'Home-bottom-section-left',
         bulletOffset: -192
     },

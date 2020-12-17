@@ -17,6 +17,9 @@
 
 .eduLogo {
     padding: 2rem 0 0 2rem;
+    & svg {
+        fill: $dark-gold !important;
+    }
 }
 
 @media screen and (max-width: 992px) {
