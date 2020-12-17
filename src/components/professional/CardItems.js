@@ -4,7 +4,7 @@ export const CardItems = [
         cardAnimateChar: "_",
         cardAddCharClass: "blink",
         cardHeader: 'Web Programmer',
-        cardSummary: 'Something about me as a web programmer',
+        cardSummary: 'Building on over two years of work experience in QA in web-based market research technology, I switched to the programming side .',
         cardList: 'bullet points about my experience'
     },
     {
