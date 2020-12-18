@@ -1,5 +1,6 @@
 # Portfolio for Tilman Queitsch (A01164707)
-Mockups vieable at:
+Mockups available at:
+
 Home (desktop): https://app.moqups.com/inTjYqV4fC/view/page/af403d7bd?ui=0
 
 Home (mobile): https://app.moqups.com/inTjYqV4fC/view/page/ada88db85?ui=0
