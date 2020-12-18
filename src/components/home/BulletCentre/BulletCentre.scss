@@ -38,30 +38,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .Home-bottom-section {
-        width: 100%;
-    }
-
     .bulletCentre-el2 .Home-bottom-section {
         font-size: x-large;
     }
     
-    .bulletCentre-wrap {
-    
-        &.Home-bottom-section-left {
-            padding-right: 5%;
-            width: 95%;
-        }
-
-        &.Home-bottom-section-right {
-            padding-left: 5%;
-            width: 95%;
-        }
-    }
-
     .bulletCentre-top {
         @include coln;
-        width: 100%
+        width: 100vw;
     }
 
     .Home-bottom-section-right .bulletCentre-top .bulletCentre-el1 {
@@ -77,11 +60,6 @@
         font-size: x-large;
         color: white;
         background-color: black;
-        padding: 2%;
-    }
-
-    .bulletCentre-el2 {
-        width: 64%;
         padding: 2%;
     }
     
@@ -101,7 +79,10 @@
     }
 
     .Home-bottom-section-right .bulletCentre-top .bulletCentre-el2 {
-        align-self: flex-start;
         width: 68%;
+    }
+
+    .Home-bottom-section {
+        width: auto;
     }
 }
