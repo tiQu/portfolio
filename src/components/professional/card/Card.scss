@@ -3,14 +3,16 @@
 @import '../../../styles/mixins';
 
 .professional-card {
-    @include coln;
-    justify-content: space-around;
     background-color: $dark-grey;
     color: white;
     font-family: 'Rubik', sans-serif;
     padding: 2rem;
     font-size: large;
     width: 40%;
+}
+
+.professional-card-top {
+    height: 150px;
 }
 
 .professional-line {
@@ -28,6 +30,10 @@
 
 .professional-summary {
     text-align: left;
+}
+
+.professional-header,.professional-summary {
+    font-size: x-large;
 }
 
 .professional-character .blink {
@@ -63,7 +69,21 @@
     }
 }
 
+.professional-list {
+    text-align: left;
+    padding: 1rem 0;
+    line-height: 1.5;
+    border-bottom: 1px solid white;
+
+    &:last-child {
+        border: none;
+    }
+}
+
 .cardList-line {
     display: flex;
     justify-content: space-between;
+}
+
+.cardList {
 }

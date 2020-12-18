@@ -30,14 +30,14 @@ export const BulletItems = [
     {
         bulletId: 'R',
         bulletTitle: 'R',
-        bulletDescription: 'stats-savvy developer with a knack for solving complex data problems; contributing member of an ever-growing community of R enthusiasts',
+        bulletDescription: 'stats-savvy developer with a knack for solving complex data problems',
         bulletClasses: 'Home-bottom-section-right',
         bulletOffset: -192
     },
     {
         bulletId: 'dataAnalysis',
         bulletTitle: 'data analysis',
-        bulletDescription: 'yearslong proven track record for delivering insights from raw data, communicating meaningful findings clearly',
+        bulletDescription: 'yearslong proven track record for delivering insights from raw data, communicating findings clearly',
         bulletClasses: 'Home-bottom-section-right',
         bulletOffset: -284
     }

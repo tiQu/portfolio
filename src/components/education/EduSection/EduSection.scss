@@ -3,8 +3,6 @@
 @import '../../../styles/mixins';
 
 .eduSection {
-    @include coln;
-    justify-content: space-around;
     background-color: $dark-grey;
     color: white;
     font-family: 'Rubik', sans-serif;
@@ -22,6 +20,14 @@
 
 .eduSection-summary {
     line-height: 1.5;
+}
+
+.eduSection-top {
+    min-height: 150px;
+}
+
+.eduSection-header {
+    font-size: x-large;
 }
 
 .eduSection-header span {
