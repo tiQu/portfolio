@@ -4,7 +4,6 @@
 
 .Home {
     display: flex;
-    // justify-content: space-evenly;
     align-items: center;
     width: 100vw;
     height: 3000px;
@@ -13,10 +12,6 @@
 .Home-logo {
     @include coln;
     align-items: center;
-    // justify-content: space-evenly;
-    // position: absolute;
-    // top: 30;
-    // width: 60vw;
 }
 
 .col-home-2 {
@@ -26,10 +21,10 @@
 .col-home-1, .col-home-3 {
     @include coln;
     align-items: flex-start;
-    // justify-content: flex-start;
     height: $home-height - 500px;
     height: 100%;
     width: 20vw;
+    cursor: pointer;
 }
 
 .bullets-left {
