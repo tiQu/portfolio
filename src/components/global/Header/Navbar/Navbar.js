@@ -14,11 +14,11 @@ class Navbar extends React.Component{
         return (
             <nav className="NavbarItems">
                 <NavLink
-                                    exact
-                                    className="navbar-logo"
-                                    to="./">
-                                    Tilman Queitsch
-                                </NavLink>
+                    exact
+                    className="navbar-logo"
+                    to="./">
+                    Tilman Queitsch
+                </NavLink>
                 <div>
                     <div className="menu-icon" onClick={this.handleClick}>
                         <i className={this.state.clicked ? 'bars-hidden' : 'bars-shown'}>
