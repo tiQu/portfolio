@@ -38,30 +38,29 @@
 }
 
 @media screen and (max-width: 768px) {
-    .Home-bottom-section {
-        width: 100%;
-    }
+    // .Home-bottom {
+    //     width: 100vw;
+    // }
 
     .bulletCentre-el2 .Home-bottom-section {
         font-size: x-large;
     }
     
-    .bulletCentre-wrap {
-    
-        &.Home-bottom-section-left {
-            padding-right: 5%;
-            width: 95%;
-        }
+    // .bulletCentre-wrap {
+    //     // &.Home-bottom-section-left {
+    //     //     padding-right: 5%;
+    //     //     width: 95%;
+    //     // }
 
-        &.Home-bottom-section-right {
-            padding-left: 5%;
-            width: 95%;
-        }
-    }
+    //     // &.Home-bottom-section-right {
+    //     //     padding-left: 5%;
+    //     //     width: 95%;
+    //     // }
+    // }
 
     .bulletCentre-top {
         @include coln;
-        width: 100%
+        width: 100vw;
     }
 
     .Home-bottom-section-right .bulletCentre-top .bulletCentre-el1 {
@@ -80,10 +79,10 @@
         padding: 2%;
     }
 
-    .bulletCentre-el2 {
-        width: 64%;
-        padding: 2%;
-    }
+    // .bulletCentre-el2 {
+    //     width: 64%;
+    //     padding: 0;
+    // }
     
     .Home-bottom-section-left .bulletCentre-top .bulletCentre-el1 {
         align-self: flex-start;
@@ -101,7 +100,10 @@
     }
 
     .Home-bottom-section-right .bulletCentre-top .bulletCentre-el2 {
-        align-self: flex-start;
         width: 68%;
+    }
+
+    .Home-bottom-section {
+        width: auto;
     }
 }
