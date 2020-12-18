@@ -31,11 +31,19 @@
     display: none;
 }
 
+@media screen and (max-width: 992px) {
+    .bulletCentre-el2 .Home-bottom-section {
+        font-size: large;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .Home-bottom-section {
         width: 100%;
-        // padding: 2.5vw;
-        font-size: large;
+    }
+
+    .bulletCentre-el2 .Home-bottom-section {
+        font-size: x-large;
     }
     
     .bulletCentre-wrap {

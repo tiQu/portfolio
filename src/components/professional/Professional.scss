@@ -11,10 +11,10 @@
 
 @media screen and (max-width: 992px) {
     .professional {
-        @include coln;
+        @include main_section_collapse;
     }
 
     .professional-card {
-        border-bottom: 1rem solid white;
+        @include sub_section_collapse;
     }
 }
