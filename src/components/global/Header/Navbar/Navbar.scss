@@ -29,10 +29,8 @@ nav, .nav-links {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     border-bottom: 1px solid white;
-}
-
-.navbar-logo span {
     color: white;
+    text-decoration: none;
 }
 
 .nav-menu {
@@ -62,6 +60,10 @@ nav, .nav-links {
 .nav-links-active {
     text-decoration: underline;
 }
+
+// @media screen and (max-width: 992px) {
+
+// }
 
 @media screen and (max-width: 768px) {
     .NavbarItems {

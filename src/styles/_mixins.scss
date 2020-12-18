@@ -2,3 +2,15 @@
     display: flex;
     flex-direction: column;
 }
+
+@mixin main_section_collapse {
+    @include coln;
+    align-items: center;
+    width: auto;
+}
+
+@mixin sub_section_collapse {    
+    width: 95%;
+    padding: 2.5% 2rem;
+    border-bottom: 1rem solid white;
+}

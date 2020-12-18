@@ -12,7 +12,7 @@ class BulletCentre extends React.Component{
                         {this.props.bulletTitle}
                     </div>
                     <div className="bulletCentre-el2">
-                        <Element className='Home-bottom-section' id={this.props.bulletId}>{this.props.bulletDescription}</Element>
+                        <Element className='Home-bottom-section' id={this.props.bulletId}>{this.props.bulletDescription}.</Element>
                     </div>
                 </div>
                 <div className="bulletCentre-bottom">
