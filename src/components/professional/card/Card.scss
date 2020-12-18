@@ -10,6 +10,7 @@
     font-family: 'Rubik', sans-serif;
     padding: 2rem;
     font-size: large;
+    width: 40%;
 }
 
 .professional-line {
@@ -23,6 +24,10 @@
 
 .professional-header {
     color: $dark-gold;
+}
+
+.professional-summary {
+    text-align: left;
 }
 
 .professional-character .blink {
@@ -39,21 +44,21 @@
     // top: calc(50% - 21px);
     left: 0;
     opacity: 0;
-    animation: in 4s ease-out forwards infinite;
+    animation: in 5s ease-out forwards infinite;
     animation-delay: 1s;
 }
 
 @keyframes in{
-    0%{
-    letter-spacing: -17px;
-    opacity: 0;
+    0% {
+        letter-spacing: -17px;
+        opacity: 0;
     }
-    30%{
-    letter-spacing: 4px;
-    opacity: 1;
+    30% {
+        letter-spacing: 4px;
+        opacity: 1;
     }
-    100%{
-    letter-spacing: 4px;
-    opacity: 1;
+    100% {
+        letter-spacing: 4px;
+        opacity: 1;
     }
 }
