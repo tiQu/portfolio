@@ -24,14 +24,10 @@
 
 @media screen and (max-width: 992px) {
     .education {
-        @include coln;
-        align-items: center;
-        width: auto;
+        @include main_section_collapse;
     }
 
     .education-section {
-        width: 95%;
-        padding: 2.5% 2rem;
-        border-bottom: 1rem solid white;
+        @include sub_section_collapse;
     }
 }

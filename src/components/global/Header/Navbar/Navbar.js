@@ -13,7 +13,7 @@ class Navbar extends React.Component{
     render(){
         return (
             <nav className="NavbarItems">
-                <div className="navbar-logo">Tilman Queitsch</div>
+                <a href= "./" className="navbar-logo">Tilman Queitsch</a>
                 <div>
                     <div className="menu-icon" onClick={this.handleClick}>
                         <i className={this.state.clicked ? 'bars-hidden' : 'bars-shown'}>
