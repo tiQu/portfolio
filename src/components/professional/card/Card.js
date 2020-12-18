@@ -10,9 +10,9 @@ class Card extends React.Component{
                 </div>
                 <div className="professional-line professional-header">{this.props.cardHeader}</div>
                 <div className="professional-line professional-summary">{this.props.cardSummary}</div>
-                <div className="professional-line professional-list">{this.props.cardList.map((subitem, i) => {
+                <div className="professional-line">{this.props.cardList.map((subitem, i) => {
                     return(
-                        <div className="cardList-line">{subitem.value}</div>
+                        <div className="professional-list">{subitem}</div>
                         )
                 })}</div>
             </div>
