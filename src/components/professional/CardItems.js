@@ -26,7 +26,7 @@ export const CardItems = [
         cardStaticChar: "ƒ",
         cardAnimateChar: "(x)",
         cardHeader: 'Data Analyst',
-        cardSummary: 'An R afficionado since 2012 with extensive work experience, I am a consultant helping market researchers find definite answers to the question their clients have.',
+        cardSummary: 'An R aficionado since 2012 with extensive work experience, I am a consultant helping market researchers find definite answers to the question their clients have.',
         cardList: [
             <div>
                 <div className="cardList-line">
