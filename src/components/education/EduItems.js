@@ -1,12 +1,12 @@
 export const EduItems = [
     {
-        eduHeader: "Software Systems Developer (Web Programmer)",
+        eduHeader: "Certificate w/ distinction: Software Systems Developer (Web Programmer)",
         eduInstitution: "British Columbia Institute of Technology",
-        eduTimespan: "2020-2021 (ongoing)",
-        eduSummary: "An eight-month program in frontend and backend web engineering, the SSD gives me a learning environment where I team up with likeminded coders to build solutions, never losing sight of my own learning goals. It builds on many of the skills that I developed in the programming and data-focused roles of my career, such as React, SQL, and .NET."
+        eduTimespan: "2020-2021",
+        eduSummary: "An eight-month program in frontend and backend web engineering, the SSD offers a learning environment where I team up with like-minded coders to build solutions, never losing sight of my own learning goals. It builds on many of the skills that I developed in the programming and data-focused roles of my career, such as React, SQL, and .NET."
     },
     {
-        eduHeader: "Master of Publishing",
+        eduHeader: "Master of Publishing (MPub)",
         eduInstitution: "Simon Fraser University",
         eduTimespan: "2013-2014",
         eduSummary: "The Master of Publishing, dubbed 'the MBA for the creative industries', is an intensive graduate program that combines various publishing-related fields, like editing, management, and layout / design. While on a Mitacs-funded research placement at Vision Critical, I ran exploratory analyses on a combination of data from social media and surveys."
