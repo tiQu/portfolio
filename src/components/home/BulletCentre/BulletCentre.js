@@ -2,15 +2,15 @@ import React from 'react';
 import './BulletCentre.scss';
 import { Element } from "react-scroll";
 
-export default function BulletCentre() {
+export default function BulletCentre({bulletTitle, bulletClasses, bulletId, bulletDescription}) {
     return (
-        <div className={"bulletCentre-wrap " + this.props.bulletClasses}>
+        <div className={"bulletCentre-wrap " + bulletClasses}>
             <div className="bulletCentre-top">
                 <div className="bulletCentre-el1">
-                    {this.props.bulletTitle}
+                    {bulletTitle}
                 </div>
                 <div className="bulletCentre-el2">
-                    <Element className='Home-bottom-section' id={this.props.bulletId}>{this.props.bulletDescription}.</Element>
+                    <Element className='Home-bottom-section' id={bulletId}>{bulletDescription}.</Element>
                 </div>
             </div>
         </div>

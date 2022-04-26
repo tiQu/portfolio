@@ -2,15 +2,15 @@ import React from 'react';
 import './BulletSide.scss';
 import { Link } from "react-scroll";
 
-export default function BulletSide() {
+export default function BulletSide({offset, scrollToSection, txt}) {
     return (
         <Link activeClass="active" 
         spy={true}
         smooth={true}
-        offset={parseInt(this.props.offset)}
+        offset={parseInt(offset)}
         duration={500}
-        to={this.props.scrollToSection}>
-            <div className="bullet-text">{this.props.txt}</div>
+        to={scrollToSection}>
+            <div className="bullet-text">{txt}</div>
         </Link>
     );
 }

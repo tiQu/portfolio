@@ -14,7 +14,7 @@ export default function Home() {
                 <div className="bullets-left">
                     {BulletItems.slice(0,3).map((item) => {
                             return (
-                                <BulletSide scrollToSection={item.bulletId} txt={item.bulletTitle} offset={item.bulletOffset} />
+                                <BulletCentre scrollToSection={item.bulletId} txt={item.bulletTitle} offset={item.bulletOffset} />
                             )
                         })}
                     {/* <BulletSide idx="b1" scrollToSection="b1Target" txt="React" /> */}
