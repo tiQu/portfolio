@@ -2,22 +2,22 @@ import React from 'react';
 import './EduSection.scss';
 import AnimateText from '../../global/AnimateText/AnimateText';
 
-export default function EduSection() {
+export default function EduSection({eduHeader, eduInstitution, eduTimespan, eduSummary}) {
     return (
         <div className="eduSection">
             <div className="eduSection-top">
                 <div className="eduSection-header">
-                    <AnimateText content={this.props.eduHeader} />
+                    <AnimateText content={eduHeader} />
                 </div>
                 <div className="eduSection-institution">
-                    <AnimateText content={this.props.eduInstitution} />
+                    <AnimateText content={eduInstitution} />
                 </div>
                 <div className="eduSection-timespan">
-                    <AnimateText content={this.props.eduTimespan} />
+                    <AnimateText content={eduTimespan} />
                 </div>
             </div>
             <div className="eduSection-summary">
-                <AnimateText content={this.props.eduSummary} />
+                <AnimateText content={eduSummary} />
             </div>
         </div>
     )
