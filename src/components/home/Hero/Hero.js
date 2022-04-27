@@ -13,9 +13,9 @@ export default function Hero() {
             <div class="rellax hexagon hexagon1">
                 <div class="hexagon-in1">
                     <div class="hexagon-in2">
-                        </div>
-                        </div>
-                        </div>
+                    </div>
+                </div>
+            </div>
         </Parallax>
     );
 }
