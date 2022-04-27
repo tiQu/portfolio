@@ -7,20 +7,15 @@ import { Parallax } from 'react-scroll-parallax';
         
 //     </Parallax>
 // );
-
-class Hero extends React.Component{
-    render(){
-        return (
-            <Parallax className="custom-class" y={[0, -100]} x={[0, 0]} tagOuter="figure">
-                <div class="rellax hexagon hexagon1">
-                    <div class="hexagon-in1">
-                        <div class="hexagon-in2">
-                            </div>
-                            </div>
-                            </div>
-            </Parallax>
-        );
-    }
-  }
-
-export default Hero;
+export default function Hero() {
+    return (
+        <Parallax className="custom-class" y={[0, -100]} x={[0, 0]} tagOuter="figure">
+            <div class="rellax hexagon hexagon1">
+                <div class="hexagon-in1">
+                    <div class="hexagon-in2">
+                    </div>
+                </div>
+            </div>
+        </Parallax>
+    );
+}
