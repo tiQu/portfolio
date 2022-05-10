@@ -42,7 +42,7 @@ export default function Navbar() {
                             </NavLink>
                         )
                     })}
-                    <a className="nav-links" href="mailto:tqueitsc@alumni.sfu.ca">CONTACT ME</a>
+                    <a className="nav-links" href="mailto:tqueitsch@my.bcit.ca">CONTACT ME</a>
                 </ul>
             </div>
         </nav>
