@@ -4,13 +4,20 @@ export const CardItems = [
         cardAnimateChar: "_",
         cardAddCharClass: "blink",
         cardHeader: 'Web Programmer',
-        cardSummary: 'Building on over two years of QA experience in web-based market research technology, I switched to the programming side. ',
+        cardSummary: 'Building on over two years of QA experience in web-based market research technology, I switched to the programming side.',
         cardList: [
+            <div>
+                <div className="cardList-line">
+                    <span>Analytics Developer (2021-present)</span><span>KIT Research</span>
+                </div>
+            • Maintenance and development of the R code base for a web-based analytics platform<br />
+            • Integration of R package into existing technology stack<br />
+            • Design and implementation of additional analyses</div>,
             <div>
                 <div className="cardList-line">
                     <span>Technical Solutions Analyst (2017-2018)</span><span>Maru/Matchbox</span>
                 </div>
-            • Development and continuous enhancement of VBA-based automation tools for programmers, project managers and researchers<br />
+            • Development and constant enhancement of VBA-based automation tools for programmers, project managers and researchers<br />
             • Organizing internal knowledge exchange, and training peers on automation tools<br />
             • Using C# and Lua to enhance functionality and effectiveness of online surveys</div>,
             <div>
@@ -26,7 +33,7 @@ export const CardItems = [
         cardStaticChar: "ƒ",
         cardAnimateChar: "(x)",
         cardHeader: 'Data Analyst',
-        cardSummary: 'An R aficionado since 2012 with extensive work experience, I am a consultant helping market researchers find definite answers to the question their clients have.',
+        cardSummary: 'An R aficionado since 2012 with extensive work experience, I am equal parts data analyst and market research consultant.',
         cardList: [
             <div>
                 <div className="cardList-line">
