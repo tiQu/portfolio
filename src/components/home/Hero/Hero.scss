@@ -34,23 +34,23 @@
 }
 
 .hexagon1 {
-    width: 800px;
-    height: 400px;
-    margin: 0 0 0 80px;
+    width: 600px;
+    height: 300px;
+    margin: 0 0 0 0px;
 }
 
 .custom-class {
     padding-top: 15rem;
 }
 
-@media screen and (max-width: 992px) {
+// @media screen and (max-width: 992px) {
     .hexagon1 {
-        width: 500px;
-        height: 250px;
-        margin: 0 0 0 80px;
+        width: 400px;
+        height: 200px;
+        margin: 0 0 0 0px;
     }
     
     .hexagon-in2 {
-        background-image: url('./logo_hero_small_rev.png');
+        background-image: url('./mangatar.png');
     }
-}
+// }

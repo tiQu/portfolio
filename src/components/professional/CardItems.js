@@ -10,23 +10,32 @@ export const CardItems = [
                 <div className="cardList-line">
                     <span>Analytics Developer (2021-present)</span><span>KIT Research</span>
                 </div>
-            • Maintenance and development of the R code base for a web-based analytics platform<br />
-            • Integration of R package into existing technology stack<br />
-            • Design and implementation of additional analyses</div>,
+                <ul>
+                    <li>• Maintenance and development of the R code base for a web-based analytics platform</li>
+                    <li>• Integration of R package into existing technology stack</li>
+                    <li>• Design and implementation of additional analyses</li>
+                </ul>
+            </div>,
             <div>
                 <div className="cardList-line">
                     <span>Technical Solutions Analyst (2017-2018)</span><span>Maru/Matchbox</span>
                 </div>
-            • Development and constant enhancement of VBA-based automation tools for programmers, project managers and researchers<br />
-            • Organizing internal knowledge exchange, and training peers on automation tools<br />
-            • Using C# and Lua to enhance functionality and effectiveness of online surveys</div>,
+                <ul>
+                    <li>• Development and constant enhancement of VBA-based automation tools for programmers, project managers and researchers</li>
+                    <li>• Organizing internal knowledge exchange, and training peers on automation tools</li>
+                    <li>• Using C# and Lua to enhance functionality and effectiveness of online surveys</li>
+                </ul>
+            </div>,
             <div>
                 <div className="cardList-line">
                     <span>Senior QA Analyst (2015-2017)</span><span>Vision Critical, Maru/Matchbox</span>
                 </div>
-            • Improved programming process workflows and productivity through VBA-based tools<br />
-            • Facilitated cross team communication between project management, programming and QA teams, through presentations of established QA guidelines and processes.<br />
-            • Trained and mentored new QA team members</div>
+                <ul>
+                    <li>• Improved programming process workflows and productivity through VBA-based tools</li>
+                    <li>• Facilitated cross team communication between project management, programming and QA teams, through presentations of established QA guidelines and processes.</li>
+                    <li>• Trained and mentored new QA team members</li>
+                </ul>
+            </div>
             ]
     },
     {
@@ -39,15 +48,21 @@ export const CardItems = [
                 <div className="cardList-line">
                     <span>Data Analyst, Advanced Analytics (2018-2020)</span><span>Maru/Matchbox</span>
                 </div>
-                • Data analysis at the intersection of statistics, research, and technology.<br />
-• Techniques included mulivariate regression analysis, maximum difference scaling, segmentation analysis<br />
-• Migrated existing SAS code base to R</div>,
+                <ul>
+                    <li>• Data analysis at the intersection of statistics, research, and technology.</li>
+                    <li>• Techniques included mulivariate regression analysis, maximum difference scaling, segmentation analysis</li>
+                    <li>• Migrated existing SAS code base to R</li>
+                </ul>
+            </div>,
             <div>
                 <div className="cardList-line">
                     <span>Research Associate (2014)</span><span>Vision Critical</span>
                 </div>
-                • Data analysis of a combination of survey and social media data in R, SPSS, and Excel<br />
-                • Compiled visual representation and interpretation of survey results, in a way that non technical peers can easily view</div>
+                <ul>
+                    <li>• Data analysis of a combination of survey and social media data in R, SPSS, and Excel</li>
+                    <li>• Compiled visual representation and interpretation of survey results, in a way that non technical peers can easily view</li>
+                </ul>
+            </div>
             ]
     }
 ]
