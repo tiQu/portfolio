@@ -15,6 +15,7 @@ export default function Education() {
                 </div>
                 <div className="education-body">
                     <EduSection eduHeader={EduItems[0].eduHeader} 
+                                eduCert={EduItems[0].eduCert}
                                 eduInstitution={EduItems[0].eduInstitution}
                                 eduTimespan={EduItems[0].eduTimespan}
                                 eduSummary={EduItems[0].eduSummary} />
@@ -28,6 +29,7 @@ export default function Education() {
                 </div>
                 <div className="education-body">
                     <EduSection eduHeader={EduItems[1].eduHeader} 
+                                eduCert={EduItems[1].eduCert}
                                 eduInstitution={EduItems[1].eduInstitution}
                                 eduTimespan={EduItems[1].eduTimespan}
                                 eduSummary={EduItems[1].eduSummary} />
@@ -41,6 +43,7 @@ export default function Education() {
                 </div>
                 <div className="education-body">
                     <EduSection eduHeader={EduItems[2].eduHeader} 
+                                eduCert={EduItems[2].eduCert}
                                 eduInstitution={EduItems[2].eduInstitution}
                                 eduTimespan={EduItems[2].eduTimespan}
                                 eduSummary={EduItems[2].eduSummary} />

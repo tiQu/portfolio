@@ -65,7 +65,7 @@
     justify-content: space-between;
     //align-items: baseline;
     //justify-content: flex-end;
-    .gh-icon {
+    .footer-bottom-icon {
         padding-left: 1.75rem;
     }
 }
@@ -79,7 +79,7 @@
     }
 }
 
-svg {
+footer svg {
     fill: #fff;
     padding-right: 1rem;
 }
@@ -97,6 +97,9 @@ svg {
 #tQ-logo {
     align-self: flex-end;
     margin-bottom: -31px;
+    svg {
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
