@@ -9,10 +9,13 @@
     border-radius: 1rem;
     color: white;
     div {
-        padding-bottom: 1rem;;
+        padding-bottom: 1rem;
     }
     a {
         color: white;
+    }
+    .project-details {
+        padding-right: 1rem;
     }
     margin: 1.5rem 0rem;
 }
@@ -33,5 +36,8 @@ img {
     .project-wrap {
         @include main_section_collapse;
         width: 70vw;
+        .project-details {
+            padding-right: 0;
+        }
     }
 }
