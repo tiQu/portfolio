@@ -4,6 +4,7 @@
 .tag-wrapper {
     color: black;
     font-size: 1.2rem;
+    padding-bottom: 2rem;
 }
 
 .tag-wrapper div {
@@ -31,6 +32,7 @@
     .tag-item-wrapper {
         @include main_section_collapse;
         .tag {
+            text-align: center;
             padding-top: 0.5rem;
             width: 70vw;
         }

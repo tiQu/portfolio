@@ -30,7 +30,7 @@ export default function Navbar() {
                         </svg>
                     </i>
                 </div>
-                <ul className = {clicked ? 'nav-menu active' : 'nav-menu'}>
+                <ul onClick={() => setClicked(!clicked)} className = {clicked ? 'nav-menu active' : 'nav-menu'}>
                     {NavItems.map((item) => {
                         return (
                             <NavLink

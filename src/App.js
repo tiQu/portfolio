@@ -18,8 +18,8 @@ function App() {
             <Route exact path="/education" component={Education} />
             <Route exact path="/hobbies" component={Hobbies} />
           </Switch>
-        </Router>
         <Footer />
+      </Router>
     </div>
   );
 }

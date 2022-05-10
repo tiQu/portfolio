@@ -2,11 +2,10 @@ import React from 'react';
 import './Home.scss';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Hero from './Hero/Hero';
-import BulletSide from './BulletSide/BulletSide';
 import Tagline from './Tagline/Tagline';
-import BulletCentre from './BulletCentre/BulletCentre';
+import Projects from './Projects/Projects';
 // import FadeInSection from '../global/FadeInSection/FadeInSection';
-import { BulletItems } from './BulletItems.js'
+import ProjectsDivider from './ProjectsDivider/ProjectsDivider';
 
 export default function Home() {
     return (
@@ -16,6 +15,8 @@ export default function Home() {
                   <Hero />
               </ParallaxProvider>
               <Tagline />
+              <ProjectsDivider />
+              <Projects />
             </div>
         </section>
     );
