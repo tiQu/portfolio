@@ -66,6 +66,32 @@
     justify-content: space-around;
 }
 
+#svgGear:hover, #svgGear:active {
+    animation: rotateThis 5s linear;
+}
+
+@keyframes rotateThis {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+svg:hover, svg:active {
+    #svgConsolePlus {
+        color: $dark-gold;
+    }
+    
+    #svgStack, #svgGrowthChart {
+        color: $dark-gold;  
+        transition: color 2s ease-out;
+        -webkit-transition: color 2s ease-out;  
+        -moz-transition: color 2s ease-in-out;   
+    }
+}
+
 @media screen and (max-width: 768px) {
     .Home {
         @include coln;
