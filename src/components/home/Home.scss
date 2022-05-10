@@ -18,6 +18,11 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.home-tech {
+    font-size: larger;
+    padding: 1rem 1rem;
+}
+
 .col-home-1, .col-home-3 {
     @include coln;
     align-items: flex-start;
