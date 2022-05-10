@@ -1,0 +1,12 @@
+@import '../../../styles/mixins';
+
+.projects-wrap {
+    @include coln;
+    align-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-wrap {
+        @include main_section_collapse;
+    }
+}

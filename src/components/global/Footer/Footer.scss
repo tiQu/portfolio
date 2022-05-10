@@ -13,14 +13,14 @@
     justify-content: space-between;
 }
 
-.footer-row-top a {
+.footer-row-top div {
     display: flex;
     flex-direction: column;
 }
 
 #steam {
     position: relative;
-    bottom: -1em;
+    bottom: 0;
     opacity: 0;
 }
 
@@ -62,14 +62,21 @@
     width: 100vw;
     background-color: black;
     display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
+    justify-content: space-between;
+    //align-items: baseline;
+    //justify-content: flex-end;
+    .gh-icon {
+        padding-left: 1.75rem;
+    }
 }
 
-.contact-me a {
-    color: white;
-    text-decoration: none;
-    padding-right: 2rem;
+.contact-me {
+    display: flex;
+    a {
+        color: white;
+        text-decoration: none;
+        padding-right: 2rem;
+    }
 }
 
 svg {

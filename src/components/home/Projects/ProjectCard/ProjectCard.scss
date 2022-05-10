@@ -1,0 +1,37 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/reset';
+@import '../../../../styles/mixins';
+
+.project-wrap {
+    display: flex;
+    background-color: $dark-grey;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    div {
+        padding-bottom: 1rem;;
+    }
+    a {
+        color: white;
+    }
+    margin: 1.5rem 0rem;
+}
+
+.projectTitle {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+img {
+    border-radius: 50%;
+    border: 2pt;
+    height: 5rem;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .project-wrap {
+        @include main_section_collapse;
+        width: 70vw;
+    }
+}
