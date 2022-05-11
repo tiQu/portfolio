@@ -23,7 +23,7 @@ export default function Home() {
                 </div>
                 <HomeDivider Graphic={svgGrowthChart} dividerText="Value, delivered" />
                 <ul className="home-value">
-                    <li>&gt; Automated workflow within programming team, cutting delivery time by half</li>
+                    <li>&gt; Automated essential workflows within market research technology company, cutting programming time by half</li>
                     <li>&gt; In-company hackathon winner for biggest business impact</li>
                     <li>&gt; Shipped more than 200 projects as data analyst</li>
                 </ul>

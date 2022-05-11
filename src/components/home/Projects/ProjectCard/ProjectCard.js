@@ -12,7 +12,7 @@ export default function ProjectCard({asset, title, summary, stack, deployed, url
                     {summary}
                 </div>
                 <div>
-                    Stack: {stack}
+                    Stack / tech: {stack}
                 </div>
                 <a href={url} target="_blank" rel="noreferrer">
                     {deployed}
