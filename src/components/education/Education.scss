@@ -16,10 +16,15 @@
     width: 30vw;
 }
 
-.eduLogo {
-    padding: 2rem 0 0 2rem;
-    & svg {
-        fill: $dark-gold !important;
+.eduLogo-container {
+    padding: 2rem 0 0 1rem;
+    .eduLogo {
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: black;
+        & svg {
+            fill: $dark-gold;
+        }
     }
 }
 

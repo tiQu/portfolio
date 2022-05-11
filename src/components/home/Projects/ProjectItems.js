@@ -18,7 +18,7 @@ export const ProjectItems = [
     {
         projectAsset: "assets/potato.png",
         projectTitle: "Rotten Potatoes (2020)",
-        projectSummary: "Responsive potatoes! An API! Humble first steps in React after a few days of learning CSS and SCSS.",
+        projectSummary: "Responsive potatoes displaying results from a movie API! Humble first steps in React after a few days of learning CSS and SCSS.",
         projectStack: "React, HTML5, SCSS",
         projectDeployed: "See the code and screenshots on GitHub.",
         projectUrl: "https://www.github.com/tiQu/rotten-potatoes"
