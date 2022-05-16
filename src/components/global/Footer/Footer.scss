@@ -70,12 +70,18 @@
     }
 }
 
-.contact-me {
+.footer-section {
     display: flex;
-    a {
-        color: white;
-        text-decoration: none;
-        padding-right: 2rem;
+    align-items: center;
+
+    .contact-me {
+        a {
+            display: flex;
+            
+            color: white;
+            text-decoration: none;
+            padding-right: 2rem;
+        }
     }
 }
 
@@ -120,4 +126,25 @@ footer svg {
     .footer-section:last-child {
         border-bottom: 0;
     }
+
+    .footer-row-bottom {
+        padding-bottom: 1rem;
+        
+        .footer-bottom-icon {
+            padding-left: 1rem;
+        }
+    }
+    
+    .footer-row-bottom .contact-me a {
+        padding-right: 1rem;
+        
+        svg {
+            padding-right: 0.5rem;
+        }
+    }
+
+    .footer-row-top a .coffee svg {
+        padding-right: 0rem;
+    }
+    
 }
