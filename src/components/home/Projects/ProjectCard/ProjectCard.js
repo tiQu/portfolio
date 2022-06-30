@@ -5,7 +5,7 @@ export default function ProjectCard({asset, title, summary, stack, deployed, url
     return(
         <div className="project-wrap">
             <div className="project-details">
-                <div className="projectTitle">
+                <div className="project-title">
                     {title}
                 </div>
                 <div>

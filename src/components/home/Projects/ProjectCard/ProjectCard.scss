@@ -4,6 +4,7 @@
 
 .project-wrap {
     display: flex;
+    justify-content: space-between;
     background-color: $dark-grey;
     padding: 1rem;
     border-radius: 1rem;
@@ -20,7 +21,7 @@
     margin: 1.5rem 0rem;
 }
 
-.projectTitle {
+.project-title {
     text-decoration: underline;
     font-size: larger;
 }
