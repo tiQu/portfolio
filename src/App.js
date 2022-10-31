@@ -5,19 +5,19 @@ import Home from './components/home/Home';
 import Professional from './components/professional/Professional';
 import Education from './components/education/Education';
 import Hobbies from './components/hobbies/Hobbies';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
-          <Switch>
+          <Routes>
             <Route exact path="/" component={Home} />
             <Route exact path="/professional" component={Professional} />
             <Route exact path="/education" component={Education} />
             <Route exact path="/hobbies" component={Hobbies} />
-          </Switch>
+          </Routes>
         <Footer />
       </Router>
     </div>
