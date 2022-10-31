@@ -18,6 +18,7 @@ nav, .nav-links {
 .nav-menu .nav-links {
     display: flex;
     align-items: center;
+    transform: rotate(1.5deg);
 }
 
 .navbar-logo {
@@ -79,6 +80,8 @@ nav, .nav-links {
     }
 
     .nav-menu.active {
+        font-weight: bold;
+        color: $dark-gold;
         top: 100%;
         left: 0;
         opacity: 1;

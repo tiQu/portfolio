@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Header />
           <Routes>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/professional" component={Professional} />
-            <Route exact path="/education" component={Education} />
-            <Route exact path="/hobbies" component={Hobbies} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/professional" element={<Professional />} />
+            <Route exact path="/education" element={<Education />} />
+            <Route exact path="/hobbies" element={<Hobbies />} />
           </Routes>
         <Footer />
       </Router>

@@ -66,8 +66,8 @@
     justify-content: space-around;
 }
 
-#svgGear:hover, #svgGear:active {
-    animation: rotateThis 5s linear;
+#svgGear {
+    animation: rotateThis 10s infinite;
 }
 
 @keyframes rotateThis {
@@ -79,17 +79,12 @@
     }
 }
 
-svg:hover, svg:active {
-    #svgConsolePlus {
-        color: $dark-gold;
-    }
+#svgConsolePlus {
+    color: $dark-gold;
+}
     
-    #svgStack, #svgGrowthChart {
-        color: $dark-gold;  
-        transition: color 2s ease-out;
-        -webkit-transition: color 2s ease-out;  
-        -moz-transition: color 2s ease-in-out;   
-    }
+#svgStack, #svgGrowthChart {
+    color: $dark-gold;
 }
 
 @media screen and (max-width: 768px) {
