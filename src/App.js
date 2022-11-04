@@ -5,11 +5,13 @@ import Home from './components/home/Home';
 import Professional from './components/professional/Professional';
 import Education from './components/education/Education';
 import Hobbies from './components/hobbies/Hobbies';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+      <ParallaxProvider>
       <Router>
         <Header />
           <Routes>
@@ -20,6 +22,7 @@ function App() {
           </Routes>
         <Footer />
       </Router>
+      </ParallaxProvider>
     </div>
   );
 }
