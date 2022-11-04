@@ -16,9 +16,7 @@ export default function Home() {
         <section className="Home">
             <div className="col-home-2 Home-logo">
                 <div className="Home-top">
-                    <ParallaxProvider>
-                        <Hero />
-                    </ParallaxProvider>
+                    <Hero />
                     <Tagline />
                 </div>
                 <HomeDivider Graphic={svgGrowthChart} dividerText="Value, delivered" />
