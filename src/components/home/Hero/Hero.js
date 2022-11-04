@@ -9,7 +9,7 @@ import { Parallax } from 'react-scroll-parallax';
 // );
 export default function Hero() {
     return (
-        <Parallax className="custom-class" y={[0, 0]} x={[0, 0]} tagOuter="figure">
+        <Parallax className="custom-class" speed={10} tagOuter="figure">
             <div class="rellax hexagon hexagon1">
                 <div class="hexagon-in1">
                     <div class="hexagon-in2">
