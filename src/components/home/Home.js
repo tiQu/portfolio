@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.scss';
-import { ParallaxProvider } from 'react-scroll-parallax';
 import Hero from './Hero/Hero';
 import Tagline from './Tagline/Tagline';
 import Projects from './Projects/Projects';
