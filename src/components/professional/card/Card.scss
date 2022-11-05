@@ -8,7 +8,7 @@
     font-family: 'Rubik', sans-serif;
     padding: 2rem;
     font-size: large;
-    width: 40%;
+    width: 27%;
 }
 
 .professional-card-top {
@@ -39,17 +39,13 @@
 
 .professional-character .hop {
     position: relative;
-    animation: jump 1s ease infinite;
+    display: inline-block;
+    animation: flip 5s ease infinite;
+    font-size: xxx-large;
 }
-@keyframes jump {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
+@keyframes flip {
+    0%, 80% {
+        transform: rotateY(360deg);
     }
 }
 
