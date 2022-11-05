@@ -9,6 +9,8 @@ export default function Navbar() {
         false
     );
 
+    const activeClassName = "nav-links-active"
+
     return (
         <nav className="NavbarItems">
             <NavLink
@@ -34,10 +36,13 @@ export default function Navbar() {
                     {NavItems.map((item) => {
                         return (
                             <NavLink
-                                exact
-                                activeClassName="nav-links-active"
-                                className={item.cName} 
-                                to={item.url}>
+                                exact={true}
+                                className={
+                                    item.cName + ' ' + (({ isActive }) =>
+                                        isActive ? activeClassName : undefined)
+                                }
+                                to={item.url}
+                                end >
                                 {item.title.toUpperCase()}
                             </NavLink>
                         )
