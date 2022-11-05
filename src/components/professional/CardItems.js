@@ -7,7 +7,7 @@ export const CardItems = [
         cardList: [
             <div>
                 <div className="cardList-line">
-                  <span>Intermediate Programmer Analyst (2021-2022)<br />Reach3</span>
+                  <span>Intermediate Programmer Analyst (2022-present)<br />Reach3</span>
                 </div>
                 <ul>
                     <li>• Programming, testing and enhancement of online research projects</li>
