@@ -7,7 +7,7 @@ export const CardItems = [
         cardList: [
             <div>
                 <div className="cardList-line">
-                    <span>Intermediate Programmer Analyst (2021-2022)</span><span>Reach3</span>
+                  <span>Intermediate Programmer Analyst (2021-2022)<br />Reach3</span>
                 </div>
                 <ul>
                     <li>• Programming, testing and enhancement of online research projects</li>
@@ -16,7 +16,7 @@ export const CardItems = [
             </div>,
             <div>
                 <div className="cardList-line">
-                    <span>Analytics Developer (2021-2022)</span><span>KIT Research</span>
+                    <span>Analytics Developer (2021-2022)<br />KIT Research</span>
                 </div>
                 <ul>
                     <li>• Maintenance and development of the R code base for a web-based analytics platform</li>
@@ -35,7 +35,7 @@ export const CardItems = [
         cardList: [
             <div>
                 <div className="cardList-line">
-                    <span>Technical Solutions Analyst (2017-2018)</span><span>Maru/Matchbox</span>
+                    <span>Technical Solutions Analyst (2017-2018)<br />Maru/Matchbox</span>
                 </div>
                 <ul>
                     <li>• Development and enhancement of VBA-based automation tools for programmers, project managers and researchers</li>
@@ -45,7 +45,7 @@ export const CardItems = [
             </div>,
             <div>
                 <div className="cardList-line">
-                    <span>Senior QA Analyst (2015-2017)</span><span>Vision Critical, Maru/Matchbox</span>
+                    <span>Senior QA Analyst (2015-2017)<br />Vision Critical, Maru/Matchbox</span>
                 </div>
                 <ul>
                     <li>• Improved programming process workflows and productivity through VBA-based tools</li>
@@ -63,7 +63,7 @@ export const CardItems = [
         cardList: [
             <div>
                 <div className="cardList-line">
-                    <span>Data Analyst, Advanced Analytics (2018-2020)</span><span>Maru/Matchbox</span>
+                    <span>Data Analyst, Advanced Analytics (2018-2020)<br />Maru/Matchbox</span>
                 </div>
                 <ul>
                     <li>• Data analysis at the intersection of statistics, research, and technology.</li>
@@ -73,7 +73,7 @@ export const CardItems = [
             </div>,
             <div>
                 <div className="cardList-line">
-                    <span>Research Associate (2014)</span><span>Vision Critical</span>
+                    <span>Research Associate (2014)<br />Vision Critical</span>
                 </div>
                 <ul>
                     <li>• Data analysis of a combination of survey and social media data in R, SPSS, and Excel</li>

@@ -13,7 +13,7 @@ export default function Hobbies() {
                     My first computer...
                 </div>
                 <div className="hobbies-body">
-                    ...was a Schneider with a monochrome green display. As a kid of the 90s I'm an avid gamer.
+                  ...was a Schneider with a monochrome green display. I love tinkering with old machines and reviving them with Linux (if possible).
                 </div>
             </div>
             <div className="hobbies hobby2">
@@ -36,7 +36,7 @@ export default function Hobbies() {
                     Not to be alarmist...
                 </div>
                 <div className="hobbies-body">
-                    ...but I'm concerned about our planet and pay attention to my carbon footprint whenever possible.
+                    ...but I'm concerned about our planet's future and pay attention to my carbon footprint whenever possible.
                 </div>
             </div>
             <div className="hobbies hobby4">
