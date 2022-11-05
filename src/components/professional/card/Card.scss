@@ -37,6 +37,22 @@
     background-color: black;
 }
 
+.professional-character .hop {
+    position: relative;
+    animation: jump 1s ease infinite;
+}
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .professional-character .blink {
     animation: blinker 1s linear infinite;
 }

@@ -1,29 +1,46 @@
 export const CardItems = [
     {
-        cardStaticChar: ">",
-        cardAnimateChar: "_",
-        cardAddCharClass: "blink",
-        cardHeader: 'Web Programmer',
-        cardSummary: 'Building on over two years of QA experience in web-based market research technology, I switched to the programming side.',
+      cardAnimateChar: "{☈}",
+        cardAddCharClass: "hop",
+        cardHeader: 'Software Sytems Developer + Data Analyst',
+      cardSummary: 'Combining skills from data analysis and web development, I thrive in roles where I can incorporate both sides.',
         cardList: [
             <div>
                 <div className="cardList-line">
-                    <span>Analytics Developer (2021-present)</span><span>KIT Research</span>
+                    <span>Intermediate Programmer Analyst (2021-2022)</span><span>Reach3</span>
+                </div>
+                <ul>
+                    <li>• Programming, testing and enhancement of online research projects</li>
+                    <li>• Development of solutions for data analysis, visualization</li>
+                </ul>
+            </div>,
+            <div>
+                <div className="cardList-line">
+                    <span>Analytics Developer (2021-2022)</span><span>KIT Research</span>
                 </div>
                 <ul>
                     <li>• Maintenance and development of the R code base for a web-based analytics platform</li>
                     <li>• Integration of R package into existing technology stack</li>
-                    <li>• Design and implementation of additional analyses</li>
+                    <li>• Design and implementation of analytics use cases</li>
                 </ul>
-            </div>,
+            </div>
+            ]
+    },
+    {
+        cardStaticChar: ">",
+        cardAnimateChar: "_",
+        cardAddCharClass: "blink",
+        cardHeader: 'Web Programmer',
+        cardSummary: 'Building on several years of QA experience in web-based market research technology, I switched to the programming side.',
+        cardList: [
             <div>
                 <div className="cardList-line">
                     <span>Technical Solutions Analyst (2017-2018)</span><span>Maru/Matchbox</span>
                 </div>
                 <ul>
-                    <li>• Development and constant enhancement of VBA-based automation tools for programmers, project managers and researchers</li>
+                    <li>• Development and enhancement of VBA-based automation tools for programmers, project managers and researchers</li>
                     <li>• Organizing internal knowledge exchange, and training peers on automation tools</li>
-                    <li>• Using C# and Lua to enhance functionality and effectiveness of online surveys</li>
+                    <li>• Used C# and Lua to enhance functionality and user experience of online surveys</li>
                 </ul>
             </div>,
             <div>
