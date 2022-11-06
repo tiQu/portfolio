@@ -1,6 +1,6 @@
 export const CardItems = [
     {
-      cardAnimateChar: "{☈}",
+      cardAnimateChar: "{Σ}",
         cardAddCharClass: "hop",
         cardHeader: 'Software Sytems Developer + Data Analyst',
       cardSummary: 'Combining skills from data analysis and web development, I thrive in roles where I can incorporate both sides.',
