@@ -13,7 +13,7 @@ export default function Hobbies() {
                     My first computer...
                 </div>
                 <div className="hobbies-body">
-                  ...was a Schneider with a monochrome green display. I love tinkering with old machines and reviving them with Linux (if possible).
+                  ...was a Schneider with a monochrome green display. Nowadays I love tinkering with old Vista-era machines and reviving them with varying flavours of Linux (if possible).
                 </div>
             </div>
             <div className="hobbies hobby2">
