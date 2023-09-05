@@ -26,9 +26,9 @@ export default function Home() {
                     <li>&gt; Mentored and trained team members on tools and best practices in data analysis and software development</li>
                 </ul>
                 <HomeDivider Graphic={svgStack} dividerText="Tech I use regularly" />
-                <div className="home-tech">React, SQL, R, AWS, Node.JS, Ruby on Rails, MongoDB, .NET APIs, Linux (Ubuntu, Manjaro, Fedora), good ol' VBA</div>
+                <div className="home-tech">React, SQL, R, AWS, Node.JS, Ruby on Rails, MongoDB, .NET APIs, Linux (distro hopping!), good ol' VBA</div>
                 <HomeDivider Graphic={svgGear} dividerText="Also tinkering with" />
-                <div className="home-tech">Kotlin, Flutter, Lisp, Doom Emacs</div>
+                <div className="home-tech">Lisp, Doom Emacs, Nix, Haskell</div>
                 <HomeDivider Graphic={svgConsolePlus} dividerText="Public portfolio" />
                 <Projects />
             </div>
