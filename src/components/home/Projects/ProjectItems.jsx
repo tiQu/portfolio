@@ -1,5 +1,13 @@
 export const ProjectItems = [
     {
+        projectAsset: "assets/airq_logo.png",
+        projectTitle: "airq (2024)",
+        projectSummary: "A simple waybar plugin to render location-based air quality forecast data.",
+        projectStack: "Sway, waybar, Python",
+        projectDeployed: "Python code and setup instructions",
+        projectUrl: "https://www.codeberg.org/tiqu/airq"
+    },
+    {
         projectAsset: "assets/simple_stock_logo.png",
         projectTitle: "Simple Stock (2021)",
         projectSummary: "A nifty little mobile app for stock traders consuming data from an API.",

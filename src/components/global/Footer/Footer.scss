@@ -1,5 +1,4 @@
-@import '../../../styles/variables';
-@import '../../../styles/reset';
+@use '/src/styles/reset';
 
 .app-footer {
     font-family: 'Rubik', sans-serif;
@@ -25,7 +24,7 @@
 }
 
 .footer-row-top svg {
-    fill: $dark-grey;
+    fill: variables.$dark-grey;
     align-self: flex-end;
 }
 

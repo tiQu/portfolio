@@ -1,9 +1,7 @@
-@import '../../../styles/variables';
-@import '../../../styles/reset';
-@import '../../../styles/mixins';
+@use '/src/styles/reset';
 
 .eduSection {
-    background-color: $dark-grey;
+    background-color: variables.$dark-grey;
     color: white;
     font-family: 'Rubik', sans-serif;
     padding: 2rem;
