@@ -1,6 +1,4 @@
-@import '../../styles/variables';
-@import '../../styles/reset';
-@import '../../styles/mixins';
+@use '/src/styles/reset';
 
 .Home {
     display: flex;
@@ -35,7 +33,7 @@
 .col-home-1, .col-home-3 {
     @include coln;
     align-items: flex-start;
-    height: $home-height - 500px;
+    height: variables.$home_height - 500px;
     height: 100%;
     width: 20vw;
     cursor: pointer;
@@ -80,11 +78,11 @@
 }
 
 #svgConsolePlus {
-    color: $dark-gold;
+    color: variables.$dark-gold;
 }
     
 #svgStack, #svgGrowthChart {
-    color: $dark-gold;
+    color: variables.$dark-gold;
 }
 
 @media screen and (max-width: 768px) {

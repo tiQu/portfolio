@@ -1,11 +1,9 @@
-@import '../../../../styles/variables';
-@import '../../../../styles/reset';
-@import '../../../../styles/mixins';
+//@use '/src/styles/reset';
 
 .project-wrap {
     display: flex;
     justify-content: space-between;
-    background-color: $dark-grey;
+    background-color: variables.$dark-grey;
     padding: 1rem;
     border-radius: 1rem;
     color: white;
