@@ -1,6 +1,4 @@
-@import '../../styles/variables';
-@import '../../styles/reset';
-@import '../../styles/mixins';
+@use '/src/styles/reset';
 
 .hobbies {
     font-family: 'Rubik', sans-serif;

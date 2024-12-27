@@ -1,6 +1,4 @@
-@import '../../styles/variables';
-@import '../../styles/reset';
-@import '../../styles/mixins';
+@use '/src/styles/reset';
 
 .education {
     width: 95vw;
@@ -12,7 +10,7 @@
 
 .education-section {
     display: flex;
-    background-color: $dark-grey;
+    background-color: variables.$dark-grey;
     width: 30vw;
 }
 
@@ -23,7 +21,7 @@
         border-radius: 50%;
         background-color: black;
         & svg {
-            fill: $dark-gold;
+            fill: variables.$dark-gold;
         }
     }
 }

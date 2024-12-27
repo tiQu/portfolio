@@ -1,6 +1,4 @@
-@import '../../../../styles/variables';
-@import '../../../../styles/reset';
-@import '../../../../styles/mixins';
+@use '/src/styles/reset';
 
 nav, .nav-links {
     background-color: black;
@@ -80,7 +78,7 @@ nav, .nav-links {
 
     .nav-menu.active {
         font-weight: bold;
-        color: $dark-gold;
+        color: variables.$dark-gold;
         top: 100%;
         left: 0;
         opacity: 1;
