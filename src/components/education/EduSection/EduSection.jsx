@@ -1,6 +1,6 @@
-import React from 'react';
-import './EduSection.scss';
 import AnimateText from '../../global/AnimateText/AnimateText';
+
+import './EduSection.scss';
 
 export default function EduSection({eduHeader, eduCert, eduInstitution, eduTimespan, eduSummary}) {
     return (

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Tagline.scss';
 
 export default function Tagline() {

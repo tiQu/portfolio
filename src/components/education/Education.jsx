@@ -1,7 +1,7 @@
-import React from 'react';
 import EduSection from './EduSection/EduSection';
-import './Education.scss';
 import { EduItems } from'./EduItems';
+
+import './Education.scss';
 
 export default function Education() {
     return (

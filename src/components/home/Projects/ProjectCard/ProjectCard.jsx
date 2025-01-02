@@ -1,4 +1,3 @@
-import React from 'react';
 import './ProjectCard.scss';
 
 export default function ProjectCard({asset, title, summary, stack, deployed, url}) {

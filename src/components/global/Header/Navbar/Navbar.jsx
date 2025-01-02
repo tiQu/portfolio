@@ -1,6 +1,8 @@
 import React from 'react';
+
 import { NavItems } from './NavItems';
 import { NavLink } from 'react-router-dom';
+
 import './Navbar.scss';
 
 export default function Navbar() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Card.scss';
 
 export default function Card({staticChar, addCharClass, animateChar, cardHeader, cardSummary, cardList}) {

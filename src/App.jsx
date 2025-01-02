@@ -1,12 +1,14 @@
-import './App.scss';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Header from './components/global/Header/Header'
 import Footer from './components/global/Footer/Footer'
 import Home from './components/home/Home';
 import Professional from './components/professional/Professional';
 import Education from './components/education/Education';
 import Hobbies from './components/hobbies/Hobbies';
-import { ParallaxProvider } from 'react-scroll-parallax';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import './App.scss';
 
 function App() {
   return (

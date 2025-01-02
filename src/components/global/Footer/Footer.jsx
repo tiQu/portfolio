@@ -1,6 +1,6 @@
-import React from 'react';
-import './Footer.scss';
 import { NavLink } from 'react-router-dom';
+
+import './Footer.scss';
 
 const scrollTop = () => {
     window.scrollTo({top: 0, behavior: 'smooth'});

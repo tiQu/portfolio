@@ -1,7 +1,7 @@
-import React from 'react';
 import Card from './card/Card.jsx';
-import './Professional.scss';
 import { CardItems } from './CardItems.jsx'
+
+import './Professional.scss';
 
 export default function Professional() {
     return (

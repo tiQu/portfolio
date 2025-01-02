@@ -1,6 +1,6 @@
-import React from 'react';
-import './BulletSide.scss';
 import { Link } from "react-scroll";
+
+import './BulletSide.scss';
 
 export default function BulletSide({offset, scrollToSection, txt}) {
     return (

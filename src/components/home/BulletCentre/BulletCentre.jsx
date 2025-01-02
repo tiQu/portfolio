@@ -1,6 +1,6 @@
-import React from 'react';
-import './BulletCentre.scss';
 import { Element } from "react-scroll";
+
+import './BulletCentre.scss';
 
 export default function BulletCentre({bulletTitle, bulletClasses, bulletId, bulletDescription}) {
     return (

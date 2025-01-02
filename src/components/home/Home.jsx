@@ -1,14 +1,13 @@
-import React from 'react';
-import './Home.scss';
 import Hero from './Hero/Hero';
 import Tagline from './Tagline/Tagline';
 import Projects from './Projects/Projects';
-// import FadeInSection from '../global/FadeInSection/FadeInSection';
 import HomeDivider from './HomeDivider/HomeDivider';
 import svgConsolePlus from './HomeDivider/svgConsolePlus';
 import svgStack from './HomeDivider/svgStack';
 import svgGrowthChart from './HomeDivider/svgGrowthChart';
 import svgGear from './HomeDivider/svgGear';
+
+import './Home.scss';
 
 export default function Home() {
     return (
