@@ -20,6 +20,34 @@ const nonWhiteLineStyle = {
     stroke: 'none'
 }
 
+const codebergPath1Style = {
+    fontVariationSettings: 'normal',
+    opacity: '1',
+    vectorEffect: 'none',
+    fill: 'url(#linearGradient6918-3)',
+    fillOpacity: '1',
+    stroke: 'none',
+    strokeWidth: '3.67846',
+    strokeLinecap: 'butt',
+    strokeLinejoin: 'miter',
+    strokeMiterlimit: '2',
+    strokeDasharray: 'none',
+    strokeDashoffset: '0',
+    strokeOpacity: '1',
+    paintOrder: 'stroke markers fill',
+    stopColor: '#000000',
+    stopOpacity: '1'
+}
+
+const codebergPath2Style = {
+    opacity: '1',
+    fill: '#ffffff',
+    fillOpacity: '1',
+    strokeWidth: '17.0055',
+    paintOrder: 'markers fill stroke',
+    stopColor: '#000000',
+}
+
 export default function Footer() {
     return (
         <footer className="app-footer">
@@ -190,6 +218,27 @@ export default function Footer() {
                     <a className="footer-bottom-icon" href="https://www.github.com/tiQu" target="_blank" rel="noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                    </a>
+                    <a className="footer-bottom-icon" href="https://www.codeberg.org/tiqu" target="_blank" rel="noreferrer">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="2em"
+                            height="2em"
+                            fill="currentColor"
+                            viewBox="0 0 4.3 4.3">
+                            <g
+                                transform="matrix(0.06551432,0,0,0.06551432,-2.232417,-1.431776)">
+                                <path
+                                style={codebergPath1Style}
+                                d="m 42519.285,-7078.7891 a 0.76086879,0.56791688 0 0 0 -0.738,0.6739 l 33.586,125.8886 a 87.182358,87.182358 0 0 0 39.381,-33.7636 l -71.565,-92.5196 a 0.76086879,0.56791688 0 0 0 -0.664,-0.2793 z"
+                                transform="matrix(0.37058478,0,0,0.37058478,-15690.065,2662.0533)"
+                                />
+                                <path
+                                style={codebergPath2Style}
+                                d="m 11249.461,-1883.6961 c -12.74,0 -23.067,10.3275 -23.067,23.0671 0,4.3335 1.22,8.5795 3.522,12.2514 l 19.232,-24.8636 c 0.138,-0.1796 0.486,-0.1796 0.624,0 l 19.233,24.8646 c 2.302,-3.6721 3.523,-7.9185 3.523,-12.2524 0,-12.7396 -10.327,-23.0671 -23.067,-23.0671 z"
+                                transform="matrix(1.4006354,0,0,1.4006354,-15690.065,2662.0533)" />
+                            </g>
                         </svg>
                     </a>
                     <a className="footer-bottom-icon" href="https://fi.linkedin.com/in/tilman-queitsch" target="_blank" rel="noreferrer">

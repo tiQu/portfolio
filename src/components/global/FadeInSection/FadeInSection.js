@@ -1,4 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react';
+
 import './FadeInSection.scss';
 
 export default function FadeInSection(props) {
