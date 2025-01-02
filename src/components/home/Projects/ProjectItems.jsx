@@ -4,7 +4,7 @@ export const ProjectItems = [
         projectTitle: "airq (2024)",
         projectSummary: "A simple waybar plugin to render location-based air quality forecast data.",
         projectStack: "Sway, waybar, Python",
-        projectDeployed: "Python code and setup instructions",
+        projectDeployed: "Python code and setup instructions.",
         projectUrl: "https://www.codeberg.org/tiqu/airq"
     },
     {

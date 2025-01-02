@@ -20,14 +20,26 @@ export default function Home() {
                 <HomeDivider Graphic={svgGrowthChart} dividerText="Value, delivered" />
                 <ul className="home-value">
                     <li>&gt; Automated essential workflows within market research technology company, cutting programming time by half</li>
-                    <li>&gt; In-company hackathon winner for biggest business impact</li>
-                    <li>&gt; Shipped more than 200 projects as data analyst</li>
+                    <li>&gt; In-company hackathon project winner for biggest business impact</li>
+                    <li>&gt; Shipped more than 200 quick-turn projects as data analyst</li>
                     <li>&gt; Mentored and trained team members on tools and best practices in data analysis and software development</li>
                 </ul>
                 <HomeDivider Graphic={svgStack} dividerText="Tech I use regularly" />
-                <div className="home-tech">React, SQL, R, AWS, Node.JS, Ruby on Rails, MongoDB, .NET APIs, Linux (distro hopping!), good ol' VBA</div>
+                <div className="home-tech">
+                    <ul>
+                        <li>React</li>
+                        <li>SQL</li>
+                        <li>R</li>
+                        <li>AWS</li>
+                        <li>Node.JS</li>
+                        <li>Ruby on Rails</li>
+                        <li>MongoDB</li>
+                        <li>Linux (EndeavourOS, Fedora, Debian)</li>
+                        <li>Good ol' VBA</li>
+                    </ul>
+                </div>
                 <HomeDivider Graphic={svgGear} dividerText="Also tinkering with" />
-                <div className="home-tech">Lisp, Doom Emacs, Nix, Haskell</div>
+                <div className="home-tech">PiVPN, Volumio, LazyVim, Doom Emacs, Nix</div>
                 <HomeDivider Graphic={svgConsolePlus} dividerText="Public portfolio" />
                 <Projects />
             </div>

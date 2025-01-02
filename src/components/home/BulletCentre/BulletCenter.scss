@@ -12,7 +12,7 @@
     padding: 2rem;
 }
 
-.bulletCentre-wrap {
+.bulletCenter-wrap {
     @include coln;
 
     &.Home-bottom-section-left {
@@ -26,32 +26,32 @@
     }
 }
 
-.bulletCentre-el1 {
+.bulletCenter-el1 {
     display: none;
 }
 
 @media screen and (max-width: 992px) {
-    .bulletCentre-el2 .Home-bottom-section {
+    .bulletCenter-el2 .Home-bottom-section {
         font-size: large;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .bulletCentre-el2 .Home-bottom-section {
+    .bulletCenter-el2 .Home-bottom-section {
         font-size: x-large;
     }
     
-    .bulletCentre-top {
+    .bulletCenter-top {
         @include coln;
         width: 100vw;
     }
 
-    .Home-bottom-section-right .bulletCentre-top .bulletCentre-el1 {
+    .Home-bottom-section-right .bulletCenter-top .bulletCenter-el1 {
             text-align: left;
             align-items: flex-end;
     }
 
-    .bulletCentre-el1 {
+    .bulletCenter-el1 {
         display: block;
         width: 28%;
         text-align: right;
@@ -62,22 +62,22 @@
         padding: 2%;
     }
     
-    .Home-bottom-section-left .bulletCentre-top .bulletCentre-el1 {
+    .Home-bottom-section-left .bulletCenter-top .bulletCenter-el1 {
         align-self: flex-start;
         width: 28%;
     }
 
-    .Home-bottom-section-left .bulletCentre-top .bulletCentre-el2 {
+    .Home-bottom-section-left .bulletCenter-top .bulletCenter-el2 {
         align-self: flex-end;
         width: 68%;
     }
 
-    .Home-bottom-section-right .bulletCentre-top .bulletCentre-el1 {
+    .Home-bottom-section-right .bulletCenter-top .bulletCenter-el1 {
         align-self: flex-end;
         width: 28%;
     }
 
-    .Home-bottom-section-right .bulletCentre-top .bulletCentre-el2 {
+    .Home-bottom-section-right .bulletCenter-top .bulletCenter-el2 {
         width: 68%;
     }
 

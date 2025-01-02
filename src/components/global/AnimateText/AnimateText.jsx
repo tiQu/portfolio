@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './AnimateText.scss';
 
 class AnimateText extends React.Component {
