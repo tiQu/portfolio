@@ -23,8 +23,8 @@ const nonWhiteLineStyle = {
 const codebergPath1Style = {
     fontVariationSettings: 'normal',
     opacity: '1',
+    fill: 'gray',
     vectorEffect: 'none',
-    fill: 'url(#linearGradient6918-3)',
     fillOpacity: '1',
     stroke: 'none',
     strokeWidth: '3.67846',
@@ -36,7 +36,7 @@ const codebergPath1Style = {
     strokeOpacity: '1',
     paintOrder: 'stroke markers fill',
     stopColor: '#000000',
-    stopOpacity: '1'
+    stopOpacity: '1',
 }
 
 const codebergPath2Style = {
@@ -47,6 +47,23 @@ const codebergPath2Style = {
     paintOrder: 'markers fill stroke',
     stopColor: '#000000',
 }
+
+const stop1Style = {
+    stopColor: '#fff',
+    stopOpacity: '0'
+}
+
+const stop2Style = {
+    stopColor: '#fff',
+    stopOpacity: '.30000001'
+}
+
+const stop3Style = {
+    stopColor: '#fff',
+    stopOpacity: '.30000001'
+}
+
+const fillUrl = 'fillId'
 
 export default function Footer() {
     return (
@@ -225,8 +242,16 @@ export default function Footer() {
                             xmlns="http://www.w3.org/2000/svg"
                             width="2em"
                             height="2em"
-                            fill="currentColor"
-                            viewBox="0 0 4.3 4.3">
+                            viewBox="0 0 4.3 4.3"
+                            >
+                            <defs>
+                                <linearGradient xlink:href="#b" id={fillUrl} x1="42519.285" x2="42575.336" y1="-7078.789" y2="-6966.931" gradientUnits="userSpaceOnUse"></linearGradient>
+                                <linearGradient id="b">
+                                    <stop offset="0" stopColor="#fff" stopOpacity="0"></stop>
+                                    <stop offset=".495" stopColor="#fff" stopOpacity=".30000001"></stop>
+                                    <stop offset="1" stopColor="#fff" stopOpacity=".30000001"></stop>
+                                </linearGradient>
+                            </defs>
                             <g
                                 transform="matrix(0.06551432,0,0,0.06551432,-2.232417,-1.431776)">
                                 <path
